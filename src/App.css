@@ -59,6 +59,14 @@ header {
   border-radius: 10px;
 }
 
+.nav-link {
+  border-bottom: 5px solid transparent;
+}
+
+.nav-link:hover, .nav-active {
+  border-bottom-color: var(--accent1);
+}
+
 /* end of sidebar/header */
 
 /* main */
