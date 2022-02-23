@@ -3,10 +3,16 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div id='page'>
+    <div id='page' className='flex row'>
       <Sidebar />
       <main>
-        main stuff
+        <nav>
+          <ul className='flex row'>
+            <li>Research</li>
+            <li>Teaching</li>
+            <li>Vita</li>
+          </ul>
+          </nav>
       </main>
     </div>
   );

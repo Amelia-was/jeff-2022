@@ -23,11 +23,13 @@ body {
 }
 
 #page {
-  display: flex;
-  flex-flow: row wrap;
   align-items: stretch;
   height: 100vh;
   width: 100%;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* sidebar/header */
@@ -38,8 +40,6 @@ header {
   padding: 30px;
   min-width: 475px;
   max-width: 576px;
-  display: flex;
-  flex-flow: column wrap;
   align-items: flex-end;
 }
 
@@ -49,13 +49,14 @@ header {
 
 .contact {
   margin-top: 10px;
-  list-style-type: none;
-  display: flex;
-  flex-flow: row wrap;
 }
 
 .contact li:nth-child(n+1) {
   margin-left: 10px;
+}
+
+.headshot {
+  border-radius: 10px;
 }
 
 /* end of sidebar/header */
@@ -67,6 +68,20 @@ main {
 }
 
 /* end of main */
+
+/* utility */
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-flow: row wrap;
+}
+
+.column {
+  flex-flow: column wrap;
+}
+/* end of utility */
 
 /* media queries */
 
