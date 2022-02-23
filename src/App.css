@@ -25,7 +25,7 @@ body {
 #page {
   align-items: stretch;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 
 ul {
@@ -38,7 +38,7 @@ header {
   background: var(--main);
   color: var(--textLight);
   padding: 30px;
-  min-width: 475px;
+  min-width: 200px;
   max-width: 576px;
   align-items: flex-end;
 }
@@ -65,6 +65,7 @@ header {
 
 main {
   padding: 20px;
+  max-width: 768px;
 }
 
 /* end of main */
@@ -85,7 +86,19 @@ main {
 
 /* media queries */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1400px) {
+  main {
+    max-width: 576px;
+  }
+  header {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
   #page {
     align-items: flex-start;
   }
