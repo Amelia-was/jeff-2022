@@ -35,22 +35,55 @@ body {
 header {
   background: var(--main);
   color: var(--textLight);
-  padding: 20px;
+  padding: 30px;
   min-width: 475px;
-  max-width: 100%;
+  max-width: 576px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+}
+
+.about {
+  text-align: right;
+}
+
+.contact {
+  margin-top: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact li:nth-child(n+1) {
+  margin-left: 10px;
 }
 
 /* end of sidebar/header */
 
 /* main */
+
 main {
   padding: 20px;
 }
 
 /* end of main */
 
+/* media queries */
+
 @media only screen and (max-width: 768px) {
+  #page {
+    align-items: flex-start;
+  }
   header, main {
     min-width: 100%;
+  }
+  header {
+    align-items: center;
+  }
+  .about {
+    text-align: center;
+  }
+  .headshot {
+    display: none;
   }
 }
