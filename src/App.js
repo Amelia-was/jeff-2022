@@ -1,5 +1,6 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
+import Teaching from './components/Teaching'
 
 function App() {
   return (
@@ -8,11 +9,12 @@ function App() {
       <main>
         <nav>
           <ul className='flex row'>
-            <li>Research</li>
-            <li>Teaching</li>
-            <li>Vita</li>
+            <li><h3>Research</h3></li>
+            <li><h3>Teaching</h3></li>
+            <li><h3>Vita</h3></li>
           </ul>
           </nav>
+          <Teaching />
       </main>
     </div>
   );
