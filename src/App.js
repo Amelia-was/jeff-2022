@@ -23,7 +23,7 @@ function App() {
     <div id='page' className='grid'>
       <Sidebar />
       <main className='flex column'>
-        <nav>
+        <nav className='mb-2'>
           <ul className='flex row'>
             {navLinks.map(link => <li key={link}><h3 className={`nav-link ${link == currentPage && 'nav-active'}`} onClick={() => setCurrentPage(link)}>{link}</h3></li>)}
           </ul>
