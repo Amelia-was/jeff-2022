@@ -80,6 +80,8 @@ header {
   align-items: flex-end;
 }
 
+
+
 .about {
   text-align: right;
 }
@@ -92,9 +94,20 @@ header {
   margin-left: var(--medSpace);
 }
 
-.headshot {
-  /* border-radius: 50%; */
+.contact-icon {
+  width: 1.5em;
+  height: 1.5em;
+  opacity: 80%;
 }
+
+.contact-icon:hover {
+  opacity: 100%;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in;
+}
+
+/* .headshot {
+border-radius: 50%;} */
 
 .nav-link {
   border-bottom: 5px solid transparent;
@@ -103,6 +116,7 @@ header {
 .nav-link:hover, .nav-active {
   border-bottom-color: var(--mainLight);
   cursor: pointer;
+  transition: border-bottom-color 0.3s ease-in;
 }
 
 .nav-link:nth-child(n+1) {
@@ -125,6 +139,29 @@ section {
 }
 
 /* end of main */
+
+/* papers */
+.paper-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--mainLight);
+}
+
+.paper-link:hover {
+  text-decoration: underline var(--mainLight);
+  /* font-style: italic; */
+}
+
+.no-link:hover {
+  text-decoration: none;
+}
+
+.coming-soon {
+  color: var(--mainLight);
+  font-style: italic;
+  text-decoration: underline wavy var(--textAccent1);
+}
+/* end of papers */
 
 /* list group */
 .list-group {
@@ -154,6 +191,10 @@ section {
 
 .align-baseline {
   align-items: baseline;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .mt-2 {

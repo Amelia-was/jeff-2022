@@ -4,6 +4,7 @@ const academicPapers = [
         paperLink: 'https://www.journals.uchicago.edu/doi/abs/10.1086/713497?journalCode=tpe',
         authors: 'Jeffrey Clemens, Joshua Gottlieb, Jeffrey Hicks',
         journal: 'Tax Policy and the Economy, 2021, Vol 35',
+        abstract: 'abstract goes here',
         links: [
             {
                 title: 'Online Appendix',
@@ -17,25 +18,30 @@ const academicPapers = [
     },
     {
         title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
-        paperLink: 'http://users.nber.org/~jdgottl/SpilloversGHHO.pdf',
+        paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120',
         authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
-        journal: 'Journal of Public Economics (Accepted) July 2021'
+        journal: 'Journal of Public Economics (Accepted) July 2021',
+        abstract: 'abstract goes here'
     },
     {
         title: 'How Well-Targeted are Payroll Tax Cuts as a Response to COVID-19? Evidence from China',
         paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3686345',
         authors: 'Wei Cui, Jeffrey Hicks, Max Norton',
-        journal: 'November 2021'
+        journal: 'November 2021',
+        abstract: 'abstract goes here'
     },
     {
         title: 'The Spillover Effects of Top Income Inequality',
         paperLink: 'http://users.nber.org/~jdgottl/SpilloversGHHO.pdf',
-        authors: 'Joshua Gottlieb, David Hemous, Jeffrey Hicks, Morten Olsen'
-
+        authors: 'Joshua Gottlieb, David Hemous, Jeffrey Hicks, Morten Olsen',
+        journal: 'December 2019',
+        abstract: 'abstract goes here'
     },
     {
         title: 'Resilient Mothers: The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long - Run Outcomes',
         authors: 'Jeffrey Hicks, Gaelle Simard - Duplain, David Green, William Warburton',
+        abstract: 'abstract goes here',
+        journal: 'TBA',
         isComingSoon: true
     }
 ]
