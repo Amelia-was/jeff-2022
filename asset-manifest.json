@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jeff-2022/static/css/main.0637ab73.css",
+    "main.js": "/jeff-2022/static/js/main.d4c2f7d0.js",
+    "static/media/jeff-headshot-1.jpg": "/jeff-2022/static/media/jeff-headshot-1.0fcbc8aa6784814502a4.jpg",
+    "index.html": "/jeff-2022/index.html",
+    "main.0637ab73.css.map": "/jeff-2022/static/css/main.0637ab73.css.map",
+    "main.d4c2f7d0.js.map": "/jeff-2022/static/js/main.d4c2f7d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0637ab73.css",
+    "static/js/main.d4c2f7d0.js"
+  ]
+}
