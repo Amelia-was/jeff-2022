@@ -31,7 +31,7 @@ function ListGroup({ heading }) {
     }
 
     return (
-        <div>
+        <div className='list-group'>
             <h4>{heading}</h4>
             <ul>
                 {pickCat(heading).map(

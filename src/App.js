@@ -20,12 +20,12 @@ function App() {
     }
   }
   return (
-    <div id='page' className='flex row'>
+    <div id='page' className='grid'>
       <Sidebar />
       <main className='flex column'>
         <nav>
           <ul className='flex row'>
-            {navLinks.map(link => <li key={link}><h3 className={`nav-link${link == currentPage && ' nav-active'}`} onClick={() => setCurrentPage(link)}>{link}</h3></li>)}
+            {navLinks.map(link => <li key={link}><h3 className={`nav-link ${link == currentPage && 'nav-active'}`} onClick={() => setCurrentPage(link)}>{link}</h3></li>)}
           </ul>
         </nav>
         {renderPage()}

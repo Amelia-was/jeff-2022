@@ -3,10 +3,10 @@ import ListGroup from '../ListGroup';
 
 function Teaching() {
     return (
-        <div> 
+        <section> 
             <ListGroup heading='Instructor'/>
             <ListGroup heading='Teaching Assistant' />
-        </div>
+        </section>
     );
 };
 

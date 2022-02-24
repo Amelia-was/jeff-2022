@@ -3,7 +3,7 @@ import ListGroup from '../ListGroup';
 
 function Vita() {
     return (
-        <div>
+        <section>
             <ListGroup heading='Education' />
             <ListGroup heading='Invited Presentations' />
             <ListGroup heading='Research Grants' />
@@ -11,7 +11,7 @@ function Vita() {
             <ListGroup heading='Referee Service' />
             <ListGroup heading='Software' />
             <ListGroup heading='Languages' />
-        </div>
+        </section>
     );
 };
 

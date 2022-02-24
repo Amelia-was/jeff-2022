@@ -2,7 +2,7 @@ import React from 'react';
 
 function Research() {
     return (
-        <div>research</div>
+        <section>research</section>
     )
 }
 
