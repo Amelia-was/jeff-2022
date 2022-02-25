@@ -16,8 +16,8 @@ function Paper({ title, paperLink, links, authors, journal, abstract, isComingSo
             {abstract && 
             <>
                 <div className='flex row align-baseline mt-1'>
-                    <button type='button' className='btn mr-1' id='abstract-button' onClick={() => setIsCollapsed(!isCollapsed)}><span className='arrow'>{isCollapsed ? '▸' : '▾'}</span> Abstract</button>
-                    {links && links.map(link => <a key={link.title} href={link.url} target='_blank' rel='noreferrer' className='link mr-2'>{link.title}</a>)}
+                    <button type='button' className='btn mr-1 meta' id='abstract-button' onClick={() => setIsCollapsed(!isCollapsed)}><span className='arrow'>{isCollapsed ? '▸' : '▾'}</span> Abstract</button>
+                    {links && links.map((link, i) => <> | <a key={link.title} href={link.url} target='_blank' rel='noreferrer' className='link meta'>{link.title}</a></>)}
                 </div>
                 {isCollapsed ? <></> : <div id='abstract' className='abstract-text'>{abstract}</div>}
             </>
