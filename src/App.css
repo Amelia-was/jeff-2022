@@ -125,6 +125,7 @@ span {
 
 .icon-link, .icon-link:visited {
   color: inherit;
+  text-decoration: none;
 }
 
 /* end of links */
@@ -313,20 +314,21 @@ section {
 .show-mobile {
   display: none;
 }
+
+.text-mobile {
+  font-size: 14px;
+}
 /* end of utility */
 
 /* media queries */
 @media only screen and (max-width: 992px) {
-  .hide-mobile, .close-mobile {
+  .hide-mobile {
     display: none;
   }
   .show-mobile {
     display: flex;
   }
   #page {
-    /* align-items: flex-start;
-    grid-template-columns: 1fr;
-    grid-template-rows: max-content auto; */
     display: flex;
     flex-flow: column wrap;
     height: unset;
@@ -342,6 +344,18 @@ section {
   .abstract-text, .citation-text {
     max-width: 100%;
     margin-left: 0;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3, h4 {
+    font-size: 16px;
+  }
+  p, span, h5, .link {
+    font-size: 14px;
   }
   header {
     align-items: center;

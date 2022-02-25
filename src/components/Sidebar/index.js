@@ -23,18 +23,18 @@ function Sidebar() {
                 </li>
             </ul>
 
-            <div className='flex row align-baseline justify-evenly w-100'>
+            <div className='flex row align-baseline justify-evenly w-100 mt-3'>
 
-                <h3 className='mobile-nav show-mobile mt-2' onClick={() => setIsMobileOpen(!isMobileOpen)}>{isMobileOpen ? '▸' : '▾'} About</h3>
+                <h3 className='mobile-nav show-mobile' onClick={() => setIsMobileOpen(!isMobileOpen)}>{isMobileOpen ? '▸' : '▾'} About</h3>
 
                 <a href='mailto:jeffrey.hicks@utoronto.ca' className='icon-link show-mobile'>
-                    jeffrey.hicks@utoronto.ca
+                    <h3>Email</h3>
                 </a>
-                <a href='https://scholar.google.com/citations?user=Msyi62IAAAAJ&hl=en' className='mr-2 icon-link show-mobile' target='_blank' rel='noreferrer'>
-                    Google Scholar
+                <a href='https://scholar.google.com/citations?user=Msyi62IAAAAJ&hl=en' className='icon-link show-mobile' target='_blank' rel='noreferrer'>
+                    <h3>Google Scholar</h3>
                 </a>
             </div>
-            <p className={`about mt-3 ${isMobileOpen && 'close-mobile'}`}>
+            <p className={`about mt-3 ${isMobileOpen && 'hide-mobile'}`}>
                 Hello! I am an SSHRC Postdoctoral Fellow at the University of Toronto from 2021-2023. My research agenda primarily focuses on the design and implementation of taxation and social insurance systems. My current projects use a range of data sources including large-scale linked administrative datasets, web-scraped textual data, and spatial information.
             </p>
         </header>
