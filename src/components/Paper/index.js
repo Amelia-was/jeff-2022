@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { IoLink } from 'react-icons/io5';
 
 function Paper({ title, links, authors, journal, citation, abstract, isComingSoon }) {
     const abstractCollapsed = true;
