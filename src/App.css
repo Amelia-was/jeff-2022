@@ -130,8 +130,6 @@ header {
   align-items: flex-end;
 }
 
-
-
 .about {
   text-align: right;
 }
@@ -272,12 +270,20 @@ section {
   align-items: center;
 }
 
+.justify-between {
+  justify-content: between;
+}
+
 .mt-1 {
   margin-top: var(--smallSpace);
 }
 
 .mt-2 {
   margin-top: var(--medSpace);
+}
+
+.mt-3 {
+  margin-top: var(--bigSpace);
 }
 
 .mb-1 {

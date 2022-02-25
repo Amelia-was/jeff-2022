@@ -21,7 +21,10 @@ function Paper({ title, links, authors, journal, citation, abstract, isComingSoo
                     <button 
                         type='button' 
                         className='btn'
-                        onClick={() => setIsAbstractCollapsed(!isAbstractCollapsed)}
+                        onClick={() => {
+                            setIsCitationCollapsed(true);
+                            setIsAbstractCollapsed(!isAbstractCollapsed);
+                        }}
                     >
                         {isAbstractCollapsed ? '▸' : '▾'} Abstract
                     </button>
@@ -29,7 +32,10 @@ function Paper({ title, links, authors, journal, citation, abstract, isComingSoo
                     <button
                     type='button'
                     className='btn'
-                        onClick={() => setIsCitationCollapsed(!isCitationCollapsed)}
+                        onClick={() => {
+                            setIsAbstractCollapsed(true);
+                            setIsCitationCollapsed(!isCitationCollapsed);
+                        }}
                     >
                              | {isCitationCollapsed ? '▸' : '▾'} Citation
                     </button>}
