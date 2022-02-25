@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { IoLink } from 'react-icons/io5';
 
-function Paper({ title, paperLink, links, authors, journal, abstract, isComingSoon }) {
-    const collapsed = true;
-    const [isCollapsed, setIsCollapsed] = useState(collapsed);
+function Paper({ title, links, authors, journal, citation, abstract, isComingSoon }) {
+    const abstractCollapsed = true;
+    const [isAbstractCollapsed, setIsAbstractCollapsed] = useState(abstractCollapsed);
+
+    const citationCollapsed = true;
+    const [isCitationCollapsed, setIsCitationCollapsed] = useState(citationCollapsed);
 
     return(
         <div className='paper mb-3'>
@@ -15,10 +18,25 @@ function Paper({ title, paperLink, links, authors, journal, abstract, isComingSo
             {abstract && 
             <>
                 <div className='mt-1'>
-                    <button type='button' className='btn' id='abstract-button' onClick={() => setIsCollapsed(!isCollapsed)}>{isCollapsed ? '▸' : '▾'} Abstract</button>
+                    <button 
+                        type='button' 
+                        className='btn'
+                        onClick={() => setIsAbstractCollapsed(!isAbstractCollapsed)}
+                    >
+                        {isAbstractCollapsed ? '▸' : '▾'} Abstract
+                    </button>
+                    {citation && 
+                    <button
+                    type='button'
+                    className='btn'
+                        onClick={() => setIsCitationCollapsed(!isCitationCollapsed)}
+                    >
+                             | {isCitationCollapsed ? '▸' : '▾'} Citation
+                    </button>}
                     {links && links.map(link => <div key={link.url} className='d-inl'> | <a key={link.url} href={link.url} target='_blank' rel='noreferrer' className='link'>{link.title}</a></div>)}
                 </div>
-                {isCollapsed ? <></> : <div id='abstract' className='abstract-text'>{abstract}</div>}
+                {isAbstractCollapsed ? <></> : <div id='abstract' className='abstract-text'>{abstract}</div>}
+                {isCitationCollapsed ? <></> : <code id='citation' className='citation-text'>{citation}</code>}
             </>
             }
         </div>

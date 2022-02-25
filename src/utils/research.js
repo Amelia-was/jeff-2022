@@ -2,16 +2,28 @@ const academicPapers = [
     /*
     add a paper in this format
     the order of the properties (title, authors, etc. doesn't matter)
+    note that citation is surrounded by backticks (`) not single-quotes (')
+    whitespace matters on the citation, the indentation, linebreaks, etc. will appear as they are here
     only title, authors, and journal are required
-    paperLink is required if you did not include isComingSoon: true
     {
         title: 'title goes here',
-        paperLink: 'url goes here. Optional',
         authors: 'Author 1, Author 2, etc.',
         journal: 'Journal Name Vol X. If there's no journal name only put the Month/Year [eg. November 2021]',
         // the rest are optional
         abstract: 'abstract goes here',
+        citation: `@article{ClemensGottliebHicks,
+	title = {How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some},
+	author = {Jeffrey Clemens and Joshua D. Gottlieb and Jeffrey Hicks},
+	year = {2020},
+	journal = {Tax Policy and the Economy},
+	month = {forthcoming}
+}`,
         links: [
+            // one of these should be the link to the journal
+            {
+                title: 'Journal',
+                url: 'journal url goes here'
+            }
             {
                 title: 'Name of Link',
                 url: 'url goes here'
@@ -26,10 +38,16 @@ const academicPapers = [
     */
     {
         title: 'How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some',
-        paperLink: 'https://www.journals.uchicago.edu/doi/abs/10.1086/713497?journalCode=tpe',
         authors: 'Jeffrey Clemens, Joshua Gottlieb, Jeffrey Hicks',
         journal: 'Tax Policy and the Economy, 2021, Vol 35',
         abstract: 'Proposals to create a national health care plan such as "Medicare for All" rely heavily on reducing the prices that insurers pay for health care. These changes affect physicians\' short-run incentives for care provision and may also change health care providers\' incentives to invest in capacity, thereby influencing the availability of care in the long term. We provide evidence on these responses using a major Medicare payment change combined with survey data on physicians\' time use. We find evidence that physicians increase their time spent on capacity building when remuneration increases, and that they are subsequently more willing to accept new patients—especially those who may be the residual claimants on marginal capacity. These forces imply that short-run supply curves likely differ from long-run supply curves. Policymakers need to account for how major changes to payment incentives would influence the investments that determine health system capacity.',
+        citation: `@article{ClemensGottliebHicks,
+	title = {How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some},
+	author = {Jeffrey Clemens and Joshua D. Gottlieb and Jeffrey Hicks},
+	year = {2020},
+	journal = {Tax Policy and the Economy},
+	month = {forthcoming}
+}`,
         links: [
             {
                 title: 'Journal',
