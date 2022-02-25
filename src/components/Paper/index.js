@@ -8,15 +8,15 @@ function Paper({ title, paperLink, links, authors, journal, abstract, isComingSo
     return(
         <div className='paper mb-3'>
             
-            <span className='flex row align-center'>
+            <span>
                 {title} {isComingSoon && <h5 className='mb-2 d-inl'>(Coming Soon!)</h5>}
             </span>
             <p><b>{journal}</b> <em>{authors}</em></p>
             {abstract && 
             <>
-                <div className='flex row align-baseline mt-1'>
-                    <button type='button' className='btn mr-1 meta' id='abstract-button' onClick={() => setIsCollapsed(!isCollapsed)}><span className='arrow'>{isCollapsed ? '▸' : '▾'}</span> Abstract</button>
-                    {links && links.map((link, i) => <> | <a key={link.title} href={link.url} target='_blank' rel='noreferrer' className='link meta'>{link.title}</a></>)}
+                <div className='mt-1'>
+                    <button type='button' className='btn' id='abstract-button' onClick={() => setIsCollapsed(!isCollapsed)}>{isCollapsed ? '▸' : '▾'} Abstract</button>
+                    {links && links.map(link => <div key={link.url} className='d-inl'> | <a key={link.url} href={link.url} target='_blank' rel='noreferrer' className='link'>{link.title}</a></div>)}
                 </div>
                 {isCollapsed ? <></> : <div id='abstract' className='abstract-text'>{abstract}</div>}
             </>
