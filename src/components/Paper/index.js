@@ -9,8 +9,7 @@ function Paper({ title, paperLink, links, authors, journal, abstract, isComingSo
         <div className='paper mb-3'>
             
             <span className='flex row align-center'>
-                
-                <a href={paperLink} target='_blank' rel='noreferrer' className={`paper-link ${isComingSoon && 'no-link'}`}>{title} {isComingSoon && <h5 className='mb-2 d-inl'>(Coming Soon!)</h5>}</a>{paperLink && <IoLink />}
+                {title} {isComingSoon && <h5 className='mb-2 d-inl'>(Coming Soon!)</h5>}
             </span>
             <p><b>{journal}</b> <em>{authors}</em></p>
             {abstract && 

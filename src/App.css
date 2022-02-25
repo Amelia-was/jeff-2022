@@ -88,6 +88,7 @@ p {
 }
 
 span {
+  color: var(--mainLight);
   font-weight: bold;
   margin-right: var(--smallSpace);
 }
@@ -188,28 +189,6 @@ section {
 /* end of main */
 
 /* papers */
-.paper-link {
-  margin-right: var(--smallSpace);
-  /* font-variant: small-caps; */
-  font-size: 16px;
-  text-decoration: none;
-  font-weight: bold;
-  color: var(--mainLight);
-}
-
-.paper-link:visited {
-  color: var(--mainLight);
-}
-
-.paper-link:hover {
-  text-decoration: underline var(--mainLight);
-  /* font-style: italic; */
-}
-
-.no-link:hover {
-  text-decoration: none;
-}
-
 #abstract {
   transition: display 0.3s ease-in;
 }
