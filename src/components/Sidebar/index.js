@@ -6,7 +6,7 @@ function Sidebar() {
         <header className='flex column'>
             <img className='headshot' src={require('../../assets/imgs/jeff-headshot.jpg')} alt='headshot of Jeff Hicks' />
             <h1 className='mt-2'>Jeffrey Hicks</h1>
-            <ul className='contact flex row align-baseline mt-1'>
+            <ul className='contact flex row align-baseline'>
                 <li>
                     <a href='mailto:jeffrey.hicks@utoronto.ca' className='icon-link'>
                         <IoMail className='contact-icon' />

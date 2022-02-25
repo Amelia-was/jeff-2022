@@ -26,7 +26,7 @@ function Paper({ title, links, authors, journal, citation, abstract, isComingSoo
                             setIsAbstractCollapsed(!isAbstractCollapsed);
                         }}
                     >
-                        {isAbstractCollapsed ? '▸' : '▾'} Abstract
+                        <p className='btn-inner d-inl-bl'>{isAbstractCollapsed ? '▸' : '▾'} Abstract</p>
                     </button>
                     {citation && 
                     <button
@@ -37,7 +37,7 @@ function Paper({ title, links, authors, journal, citation, abstract, isComingSoo
                             setIsCitationCollapsed(!isCitationCollapsed);
                         }}
                     >
-                             | {isCitationCollapsed ? '▸' : '▾'} Citation
+                             | <p className='btn-inner d-inl-bl'>{isCitationCollapsed ? '▸' : '▾'} Citation</p>
                     </button>}
                     {links && links.map(link => <div key={link.url} className='d-inl'> | <a key={link.url} href={link.url} target='_blank' rel='noreferrer' className='link'>{link.title}</a></div>)}
                 </div>

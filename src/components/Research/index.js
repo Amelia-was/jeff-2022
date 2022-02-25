@@ -16,7 +16,7 @@ function Research() {
                 citation={paper.citation}
                 isComingSoon={paper.isComingSoon} />)}
         <h4>Policy Outreach</h4>
-            <p>I was part of the team of researchers involved in the <a href='https://bcbasicincomepanel.ca/wp-content/uploads/2021/01/Final_Report_BC_Basic_Income_Panel.pdf' target='_blank' rel='noreferrer' className='link inline-link'>British Columbia Basic Income Panel</a>. One policy piece coming out of this was:</p><br />
+            <p>I was part of the team of researchers involved in the <a href='https://bcbasicincomepanel.ca/wp-content/uploads/2021/01/Final_Report_BC_Basic_Income_Panel.pdf' target='_blank' rel='noreferrer' className='link'>British Columbia Basic Income Panel</a>. One policy piece coming out of this was:</p><br />
 
                 <Paper 
                     title='BC Income Assistance Trends and Dynamics: Descriptions and Policy Implications'
