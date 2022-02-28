@@ -2,10 +2,10 @@ const instructor = [
     {
         title: 'Labour Economics: Employment, Wages, and Public Policy',
         description: 'Undergrad, University of Toronto, 2021-2022',
-        link: [
+        links: [
             {
-                text: 'Evals 1',
-                url: 'url'
+                title: 'Evaluations',
+                url: 'https://jeffreyhickscom.files.wordpress.com/2022/01/ut-blue-as-fall-2021-undergrad-instructor-report-for-labour-economics-i-eco339h1-f-lec0101-jeffrey-hicks.pdf'
             }
         ]
     }
@@ -19,24 +19,24 @@ const teachingAssistant = [
     {
         title: 'Microeconomics for Policy Analysis',
         description: 'Master\'s of Public Policy and Global Affairs, UBC, 2018',
-        link: [
+        links: [
             {
-                text: 'Evals 1',
-                url: 'url'
+                title: 'Evaluations 1',
+                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/gpp1.pdf'
             },
             {
-                text: 'Evals 2',
-                url: 'url'
+                title: 'Evaluations 2',
+                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/gpp2.pdf'
             }
         ]
     },
     {
         title: 'Benefit - Cost Analysis',
         description: 'UBC, Undergraduate, 2017',
-        link: [
+        links: [
             {
-                text: 'Evaluation',
-                url: 'url'
+                title: 'Evaluation',
+                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/costbenefit.pdf'
             }
         ]
     },

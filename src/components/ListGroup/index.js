@@ -35,7 +35,7 @@ function ListGroup({ heading }) {
             <h4>{heading}</h4>
             <ul>
                 {pickCat(heading).map(
-                    obj => <ListElement key={obj.title} title={obj.title} description={obj.description} />
+                    obj => <ListElement key={obj.title} title={obj.title} description={obj.description} links={obj.links} />
                 )}
             </ul>
         </div>
