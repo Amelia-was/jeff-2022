@@ -16,6 +16,7 @@
   --medSpace: 10px;
   --bigSpace: 20px;
   --biggerSpace: 40px;
+  font-size: 20px;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--white);
   color: var(--text);
-  font-size: 16px;
+  font-size: 1rem;
   height: 100vh;
 }
 
@@ -48,22 +49,22 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 h4 {
   /* font-style: italic; */
   border-bottom: 3px solid var(--accent2);
   padding-bottom: 3px;
-  font-size: 20px;
+  font-size: 1.5rem;
   color: var(--mainLight);
   margin: var(--biggerSpace) 0 var(--bigSpace) 0;
 }
@@ -72,11 +73,11 @@ h4:first-child {
   margin-top: 0;
 }
 
-h5 {
-  font-size: 16px;
+/* h5 {
+  font-size: 1rem;
   color: var(--accent2Dark);
   font-style: italic;
-}
+} */
 
 /* end of headings */
 
@@ -111,7 +112,7 @@ span {
   padding: 0;
   color: var(--mainLight);
   font-family: 'Times New Roman', serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .btn:hover {
@@ -327,11 +328,23 @@ section {
 }
 
 .text-mobile {
-  font-size: 14px;
+  font-size: 0.75rem;
 }
 /* end of utility */
 
 /* media queries */
+@media only screen and (max-width: 1400px) {
+  :root {
+    font-size: 16px;
+  }
+}
+/* 
+@media only screen and (max-width: 1200px) {
+  :root {
+    font-size: 14px;
+  }
+} */
+
 @media only screen and (max-width: 992px) {
   .hide-mobile {
     display: none;
@@ -362,18 +375,6 @@ section {
     max-width: 100%;
     margin-left: 0;
   }
-  h1 {
-    font-size: 36px;
-  }
-  h2 {
-    font-size: 24px;
-  }
-  h3, h4 {
-    font-size: 16px;
-  }
-  p, span, h5, .link {
-    font-size: 14px;
-  }
   header {
     align-items: center;
   }
@@ -383,6 +384,21 @@ section {
 }
 
 @media only screen and (max-width: 576px) {
+  :root {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
   .justify-center-sm {
     justify-content: center;
   }

@@ -9,7 +9,7 @@ function Sidebar() {
             <img className='hide-mobile' src={require('../../assets/imgs/jeff-headshot.jpg')} alt='headshot of Jeff Hicks' />
             <h1 className='mt-2'>Jeffrey Hicks</h1>
             <ul className='contact flex row-reverse align-baseline justify-end mt-2'>
-                <li className='hide-mobile'>
+                <li className='hide-mobile mt-2'>
                     <a href='mailto:jeffrey.hicks@utoronto.ca' className='icon-link'>
                         <IoMail className='contact-icon' />
                     </a></li>
@@ -25,7 +25,7 @@ function Sidebar() {
 
             <div className='flex row align-baseline justify-center-sm w-100 mt-2'>
 
-                <h3 className='mobile-nav show-mobile mr-2' onClick={() => setIsMobileOpen(!isMobileOpen)}>{isMobileOpen ? '▸' : '▾'} About</h3>
+                <h3 className='mobile-nav show-mobile mr-2' onClick={() => setIsMobileOpen(!isMobileOpen)}>{isMobileOpen ? '▾' : '▸'} About</h3>
 
                 <a href='mailto:jeffrey.hicks@utoronto.ca' className='icon-link show-mobile mr-2'>
                     <h3>Email</h3>
@@ -34,7 +34,7 @@ function Sidebar() {
                     <h3>Google Scholar</h3>
                 </a>
             </div>
-            <p className={`about mt-3 ${isMobileOpen && 'hide-mobile'}`}>
+            <p className={`about mt-2 ${!isMobileOpen && 'hide-mobile'}`}>
                 Hello! I am an SSHRC Postdoctoral Fellow at the University of Toronto from 2021-2023. My research agenda primarily focuses on the design and implementation of taxation and social insurance systems. My current projects use a range of data sources including large-scale linked administrative datasets, web-scraped textual data, and spatial information.
             </p>
         </header>
