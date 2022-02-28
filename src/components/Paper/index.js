@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Paper({ title, links, authors, journal, citation, abstract, isComingSoon }) {
+function Paper({ title, links, authors, journal, citation, abstract }) {
     const abstractCollapsed = true;
     const [isAbstractCollapsed, setIsAbstractCollapsed] = useState(abstractCollapsed);
 
@@ -11,7 +11,7 @@ function Paper({ title, links, authors, journal, citation, abstract, isComingSoo
         <div className='paper mb-3'>
             
             <span>
-                {title} {isComingSoon && <h5 className='mb-2 d-inl'>(Coming Soon!)</h5>}
+                {title}
             </span>
             <p><b>{journal}</b> <em>{authors}</em></p>
             {abstract && 

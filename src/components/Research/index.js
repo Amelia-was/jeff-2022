@@ -1,20 +1,28 @@
 import React from 'react';
-import { academicPapers } from '../../utils/research';
+import { workingPapers, publications } from '../../utils/research';
 import Paper from '../Paper';
 
 function Research() {
     return (
         <section>
-        <h4>Academic Papers</h4>
-            {academicPapers.map(paper => <Paper 
+        <h4>Working Papers</h4>
+            {workingPapers.map(paper => <Paper 
                 key={paper.title} 
                 title={paper.title}
                 authors={paper.authors}
                 journal={paper.journal}
                 links={paper.links}
                 abstract={paper.abstract}
-                citation={paper.citation}
-                isComingSoon={paper.isComingSoon} />)}
+                citation={paper.citation} />)}
+        <h4>Publications</h4>
+            {publications.map(paper => <Paper
+                key={paper.title}
+                title={paper.title}
+                authors={paper.authors}
+                journal={paper.journal}
+                links={paper.links}
+                abstract={paper.abstract}
+                citation={paper.citation} />)}
         <h4>Policy Outreach</h4>
             <p>I was part of the team of researchers involved in the <a href='https://bcbasicincomepanel.ca/wp-content/uploads/2021/01/Final_Report_BC_Basic_Income_Panel.pdf' target='_blank' rel='noreferrer' className='link'>British Columbia Basic Income Panel</a>. One policy piece coming out of this was:</p><br />
 

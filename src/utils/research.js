@@ -1,9 +1,8 @@
-const academicPapers = [
-    /*
+/*
     add a paper in this format
     the order of the properties (title, authors, etc. doesn't matter)
     note that citation is surrounded by backticks (`) not single-quotes (')
-    whitespace matters on the citation, the indentation, linebreaks, etc. will appear as they are here
+    whitespace matters on the citation; the indentation, linebreaks, etc. will appear as they are here
     only title, authors, and journal are required
     {
         title: 'title goes here',
@@ -12,11 +11,11 @@ const academicPapers = [
         // the rest are optional
         abstract: 'abstract goes here',
         citation: `@article{ClemensGottliebHicks,
-	title = {How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some},
-	author = {Jeffrey Clemens and Joshua D. Gottlieb and Jeffrey Hicks},
-	year = {2020},
-	journal = {Tax Policy and the Economy},
-	month = {forthcoming}
+    title = {How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some},
+    author = {Jeffrey Clemens and Joshua D. Gottlieb and Jeffrey Hicks},
+    year = {2020},
+    journal = {Tax Policy and the Economy},
+    month = {forthcoming}
 }`,
         links: [
             // one of these should be the link to the journal
@@ -32,50 +31,10 @@ const academicPapers = [
                 title: 'Name of link',
                 url: 'url goes here'
             }
-        ],
-        isComingSoon: true
+        ]
     }
-    */
-    {
-        title: 'How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some',
-        authors: 'Jeffrey Clemens, Joshua Gottlieb, Jeffrey Hicks',
-        journal: 'Tax Policy and the Economy, 2021, Vol 35',
-        abstract: 'Proposals to create a national health care plan such as "Medicare for All" rely heavily on reducing the prices that insurers pay for health care. These changes affect physicians\' short-run incentives for care provision and may also change health care providers\' incentives to invest in capacity, thereby influencing the availability of care in the long term. We provide evidence on these responses using a major Medicare payment change combined with survey data on physicians\' time use. We find evidence that physicians increase their time spent on capacity building when remuneration increases, and that they are subsequently more willing to accept new patients—especially those who may be the residual claimants on marginal capacity. These forces imply that short-run supply curves likely differ from long-run supply curves. Policymakers need to account for how major changes to payment incentives would influence the investments that determine health system capacity.',
-        citation: `@article{ClemensGottliebHicks,
-	title = {How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some},
-	author = {Jeffrey Clemens and Joshua D. Gottlieb and Jeffrey Hicks},
-	year = {2020},
-	journal = {Tax Policy and the Economy},
-	month = {forthcoming}
-}`,
-        links: [
-            {
-                title: 'Journal',
-                url: 'https://www.journals.uchicago.edu/doi/abs/10.1086/713497?journalCode=tpe'
-            },
-            {
-                title: 'Online Appendix',
-                url: 'https://users.nber.org/~jdgottl/ClemensGottliebHicksAppendix.pdf'
-            },
-            {
-                title: 'Data and Code',
-                url: 'https://github.com/jeffhicks05/Replication_Package_Clemens_Gottlieb_Hicks_2020'
-            }
-        ]
-    },
-    {
-        title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
-        paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120',
-        authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
-        journal: 'Journal of Public Economics (Accepted)',
-        abstract: 'We investigate whether tax incentives are effective in stimulating private investment in less developed countries, by exploiting the introduction of accelerated depreciation for fixed assets investment in China as a natural experiment. In contrast to the large positive impact of similar tax incentives in the U.S. and U.K. found in recent studies, accelerated depreciation appeared ineffective in stimulating Chinese firms\' investment. Using confidential corporate tax returns from a large province, we find that firms fail to claim the tax benefits on over 80 percent of eligible investments. Firms\' take-up of the tax incentive is significantly influenced by their taxable positions and tax sophistication. Information transmission and resources of local tax authorities also play a significant role. Our study contributes to the understanding of conditions under which tax-based investment incentives can be effective.',
-        links: [
-            {
-                title: 'Journal',
-                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120'
-            }
-        ]
-    },
+*/
+const workingPapers = [
     {
         title: 'How Well-Targeted are Payroll Tax Cuts as a Response to COVID-19? Evidence from China',
         paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3686345',
@@ -97,7 +56,7 @@ const academicPapers = [
         abstract: 'Top income inequality in the United States has increased considerably within occupations as diverse as bankers, managers, doctors, lawyers and scientists. The breadth of this phenomenon has led to a search for a common explanation.We show instead that increases in income inequality originating within a few occupations can "spill over" into others, driving broader changes in income inequality. We develop an assignment model where widget makers with heterogeneous income buy services from doctors with heterogeneous ability. In equilibrium the highest-earning widget makers match with the highest-ability doctors. Increases in income inequality among the widget makers feed directly into the doctors\' income inequality.We provide empirical support for the proposed mechanism using data on the match between doctors and patients, and the payments doctors receive. Using a Bartik-style instrument, we show that an increase in general income inequality causes higher income inequality for doctors and dentists, and in fact accounts for most of the increases in inequality within these occupations.',
         links: [
             {
-                title: 'Journal',
+                title: 'Paper',
                 url: 'http://users.nber.org/~jdgottl/SpilloversGHHO.pdf'
             }
         ]
@@ -105,9 +64,51 @@ const academicPapers = [
     {
         title: 'Resilient Mothers: The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
         authors: 'Jeffrey Hicks, Gaelle Simard - Duplain, David Green, William Warburton',
-        journal: 'TBA',
-        isComingSoon: true
+        journal: 'Coming Soon'
     }
 ]
 
-module.exports = { academicPapers }
+const publications = [
+    {
+        title: 'How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some',
+        authors: 'Jeffrey Clemens, Joshua Gottlieb, Jeffrey Hicks',
+        journal: 'Tax Policy and the Economy, 2021, Vol 35',
+        abstract: 'Proposals to create a national health care plan such as "Medicare for All" rely heavily on reducing the prices that insurers pay for health care. These changes affect physicians\' short-run incentives for care provision and may also change health care providers\' incentives to invest in capacity, thereby influencing the availability of care in the long term. We provide evidence on these responses using a major Medicare payment change combined with survey data on physicians\' time use. We find evidence that physicians increase their time spent on capacity building when remuneration increases, and that they are subsequently more willing to accept new patients—especially those who may be the residual claimants on marginal capacity. These forces imply that short-run supply curves likely differ from long-run supply curves. Policymakers need to account for how major changes to payment incentives would influence the investments that determine health system capacity.',
+        citation: `@article{ClemensGottliebHicks,
+	title = {How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some},
+	author = {Jeffrey Clemens and Joshua D. Gottlieb and Jeffrey Hicks},
+	year = {2020},
+	journal = {Tax Policy and the Economy},
+	month = {forthcoming}
+}`,
+        links: [
+            {
+                title: 'Paper',
+                url: 'https://www.journals.uchicago.edu/doi/abs/10.1086/713497?journalCode=tpe'
+            },
+            {
+                title: 'Online Appendix',
+                url: 'https://users.nber.org/~jdgottl/ClemensGottliebHicksAppendix.pdf'
+            },
+            {
+                title: 'Data and Code',
+                url: 'https://github.com/jeffhicks05/Replication_Package_Clemens_Gottlieb_Hicks_2020'
+            }
+        ]
+    },
+    {
+        title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
+        paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120',
+        authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
+        journal: 'Journal of Public Economics (Accepted)',
+        abstract: 'We investigate whether tax incentives are effective in stimulating private investment in less developed countries, by exploiting the introduction of accelerated depreciation for fixed assets investment in China as a natural experiment. In contrast to the large positive impact of similar tax incentives in the U.S. and U.K. found in recent studies, accelerated depreciation appeared ineffective in stimulating Chinese firms\' investment. Using confidential corporate tax returns from a large province, we find that firms fail to claim the tax benefits on over 80 percent of eligible investments. Firms\' take-up of the tax incentive is significantly influenced by their taxable positions and tax sophistication. Information transmission and resources of local tax authorities also play a significant role. Our study contributes to the understanding of conditions under which tax-based investment incentives can be effective.',
+        links: [
+            {
+                title: 'Paper',
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120'
+            }
+        ]
+    }    
+]
+
+module.exports = { workingPapers, publications }

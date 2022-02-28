@@ -5,12 +5,11 @@
 }
 
 :root {
-  --white: #fffffa;
+  --white: #fff;
   --main: #0a2342;
   --mainLight: #144785;
   --mainLightest: #cddcef;
   --text: #000205;
-  --textLight: #fff;
   --accent2: #00b9ae;
   --accent2Dark: #008077;
   --smallSpace: 5px;
@@ -134,7 +133,7 @@ span {
 
 header {
   background: var(--main);
-  color: var(--textLight);
+  color: var(--white);
   padding: 30px;
   align-items: flex-end;
 }
