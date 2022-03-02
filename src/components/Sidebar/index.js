@@ -6,7 +6,7 @@ function Sidebar() {
 
     return (
         <header className='flex row justify-end-lg justify-start-md justify-center-sm align-baseline align-c-start'>
-            <img className='hide-mobile' src={require('../../assets/imgs/jeff-headshot.jpg')} alt='headshot of Jeff Hicks' />
+            <img className='hide-mobile headshot' src={require('../../assets/imgs/jeff-headshot.jpg')} alt='headshot of Jeff Hicks' />
             <h1 className='mt-2'>Jeffrey Hicks</h1>
             <ul className='contact flex row-reverse align-baseline justify-end mt-2'>
                 <li className='hide-mobile mt-2'>
@@ -18,9 +18,9 @@ function Sidebar() {
                         <IoSchool className='contact-icon' />
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <h2>University of Toronto</h2>
-                </li>
+                </li> */}
             </ul>
 
             <div className='flex row align-baseline justify-center-sm w-100 mt-2'>

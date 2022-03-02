@@ -10,8 +10,10 @@
   --mainLight: #144785;
   --mainLightest: #cddcef;
   --text: #000205;
-  --accent2: #00b9ae;
-  --accent2Dark: #008077;
+  /* --accent2: #00b9ae;
+  --accent2Dark: #008077; */
+  --accent2: #eb5e55;
+  /* --accent2: #ffec5d; */
   --smallSpace: 5px;
   --medSpace: 10px;
   --bigSpace: 20px;
@@ -21,7 +23,7 @@
 
 body {
   margin: 0;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Roboto', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--white);
@@ -34,8 +36,12 @@ body {
   align-items: stretch;
   height: 100vh;
   width: 100vw;
-  grid-template-columns: minmax(300px, 500px) minmax(600px, auto);
+  grid-template-columns: minmax(300px, 400px) minmax(600px, auto);
   overflow: hidden;
+}
+
+.headshot {
+  border-radius: 50%;
 }
 
 ul {
@@ -44,7 +50,7 @@ ul {
 
 /* headings */
 h1, h2, h3, h4 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Averia Serif Libre', sans-serif;
   font-weight: 600;
 }
 
@@ -65,7 +71,7 @@ h4 {
   border-bottom: 3px solid var(--accent2);
   padding-bottom: 3px;
   font-size: 1.5rem;
-  color: var(--mainLight);
+  color: var(--text);
   margin: var(--biggerSpace) 0 var(--bigSpace) 0;
 }
 
@@ -92,6 +98,10 @@ span {
   margin-right: var(--smallSpace);
 }
 
+.authors {
+  font-weight: 300;
+}
+
 /* end of text */
 
 /* links and buttons */
@@ -111,7 +121,7 @@ span {
   border: none;
   padding: 0;
   color: var(--mainLight);
-  font-family: 'Times New Roman', serif;
+  font-family: 'Roboto', serif;
   font-size: 1rem;
 }
 
@@ -173,7 +183,7 @@ header {
 }
 
 .nav-link:hover, .nav-active {
-  border-bottom-color: var(--mainLight);
+  border-bottom-color: var(--accent2);
   cursor: pointer;
   transition: border-bottom-color 0.3s ease-in;
 }
@@ -202,6 +212,7 @@ section {
 /* papers */
 .abstract-text {
   font-style: italic;
+  font-weight: 300;
   max-width: 80%;
   margin: var(--smallSpace) 0 0 var(--bigSpace);
   padding: var(--medSpace) var(--bigSpace);
@@ -333,7 +344,7 @@ section {
 /* end of utility */
 
 /* media queries */
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   :root {
     font-size: 16px;
   }

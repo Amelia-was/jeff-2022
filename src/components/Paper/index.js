@@ -13,7 +13,7 @@ function Paper({ title, links, authors, journal, citation, abstract }) {
             <span>
                 {title}
             </span>
-            <p><b>{journal}</b> <em>{authors}</em></p>
+            <p><b>{journal}</b> <em className='authors'>{authors}</em></p>
             {abstract && 
             <>
                 <div className='mt-1'>
