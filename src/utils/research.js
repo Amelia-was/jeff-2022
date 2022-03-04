@@ -18,7 +18,7 @@
     month = {forthcoming}
 }`,
         links: [
-            // one of these should be the link to the journal
+            // one of these should be the link to the journal/paper
             {
                 title: 'Journal',
                 url: 'journal url goes here'
@@ -37,7 +37,6 @@
 const workingPapers = [
     {
         title: 'How Well-Targeted are Payroll Tax Cuts as a Response to COVID-19? Evidence from China',
-        paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3686345',
         authors: 'Wei Cui, Jeffrey Hicks, Max Norton',
         journal: 'November 2021',
         abstract: 'Numerous countries cut payroll taxes in response to COVID-19, including China, which reduced employer contributions by 21 percentage points. We use administrative data on 900,000 firms to evaluate payroll tax cuts as a business relief measure. We estimate that the tax cuts cover 31.5% of the decline in business cash flow, but labor informality causes 53% of registered firms—24% of aggregate economic activity—to receive no benefits at all. We quantify the targeting of the policy in terms of how much benefits flow to small firms less able to access external finance and to sectors worse hit by COVID-19. We find that (1) small firms and vulnerable industries are comparatively more labor intensive, which leads to desirable targeting; (2) labor informality worsens, but does not eliminate, targeting by firm size; and (3) labor informality is uncorrelated with the COVID-19 shock, and therefore does not affect targeting by sector.',
@@ -50,7 +49,6 @@ const workingPapers = [
     },
     {
         title: 'The Spillover Effects of Top Income Inequality',
-        paperLink: 'http://users.nber.org/~jdgottl/SpilloversGHHO.pdf',
         authors: 'Joshua Gottlieb, David Hemous, Jeffrey Hicks, Morten Olsen',
         journal: 'December 2019',
         abstract: 'Top income inequality in the United States has increased considerably within occupations as diverse as bankers, managers, doctors, lawyers and scientists. The breadth of this phenomenon has led to a search for a common explanation.We show instead that increases in income inequality originating within a few occupations can "spill over" into others, driving broader changes in income inequality. We develop an assignment model where widget makers with heterogeneous income buy services from doctors with heterogeneous ability. In equilibrium the highest-earning widget makers match with the highest-ability doctors. Increases in income inequality among the widget makers feed directly into the doctors\' income inequality.We provide empirical support for the proposed mechanism using data on the match between doctors and patients, and the payments doctors receive. Using a Bartik-style instrument, we show that an increase in general income inequality causes higher income inequality for doctors and dentists, and in fact accounts for most of the increases in inequality within these occupations.',
@@ -98,7 +96,6 @@ const publications = [
     },
     {
         title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
-        paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120',
         authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
         journal: 'Journal of Public Economics (Accepted)',
         abstract: 'We investigate whether tax incentives are effective in stimulating private investment in less developed countries, by exploiting the introduction of accelerated depreciation for fixed assets investment in China as a natural experiment. In contrast to the large positive impact of similar tax incentives in the U.S. and U.K. found in recent studies, accelerated depreciation appeared ineffective in stimulating Chinese firms\' investment. Using confidential corporate tax returns from a large province, we find that firms fail to claim the tax benefits on over 80 percent of eligible investments. Firms\' take-up of the tax incentive is significantly influenced by their taxable positions and tax sophistication. Information transmission and resources of local tax authorities also play a significant role. Our study contributes to the understanding of conditions under which tax-based investment incentives can be effective.',
@@ -111,4 +108,19 @@ const publications = [
     }    
 ]
 
-module.exports = { workingPapers, publications }
+const policyOutreach = [
+    {
+    title: 'BC Income Assistance Trends and Dynamics: Descriptions and Policy Implications',
+    authors: 'David Green, Jeffrey Hicks, Rebecca Warburton, Bill Warburton',
+    journal: 'Commissioned by the Expert Panel on Basic Income, British Columbia (2021)',
+    abstract: 'stuff',
+    links: [
+        {
+            title: 'Journal',
+            url: 'https://bcbasicincomepanel.ca/wp-content/uploads/2021/01/BC_Income_Assistance_Trends_and_Dynamics_Descriptions_and_Policy_Implications.pdf'
+        }
+    ]
+    }
+]
+
+module.exports = { workingPapers, publications, policyOutreach }
