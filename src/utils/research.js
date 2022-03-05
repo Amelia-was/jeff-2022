@@ -113,7 +113,7 @@ const policyOutreach = [
     title: 'BC Income Assistance Trends and Dynamics: Descriptions and Policy Implications',
     authors: 'David Green, Jeffrey Hicks, Rebecca Warburton, Bill Warburton',
     journal: 'Commissioned by the Expert Panel on Basic Income, British Columbia (2021)',
-    abstract: 'This paper documents various features of B.B Income Assistance (IA), including durations of spells of IA, how durations differ according to recipient case characteristics, and how durations and case characteristics have changed over time from February 1989 through December 2017, based on official B.C. administrative data. The goal of the paper is to relate these patterns to key policy questions, and so it is framed as a set of main patterns, each followed by a list of policy implications.',
+    abstract: 'This paper documents various features of B.C. Income Assistance (IA), including durations of spells of IA, how durations differ according to recipient case characteristics, and how durations and case characteristics have changed over time from February 1989 through December 2017, based on official B.C. administrative data. The goal of the paper is to relate these patterns to key policy questions, and so it is framed as a set of main patterns, each followed by a list of policy implications.',
     links: [
         {
             title: 'Journal',
