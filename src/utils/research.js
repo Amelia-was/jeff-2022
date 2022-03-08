@@ -42,7 +42,7 @@ const workingPapers = [
         abstract: 'Numerous countries cut payroll taxes in response to COVID-19, including China, which reduced employer contributions by 21 percentage points. We use administrative data on 900,000 firms to evaluate payroll tax cuts as a business relief measure. We estimate that the tax cuts cover 31.5% of the decline in business cash flow, but labor informality causes 53% of registered firms—24% of aggregate economic activity—to receive no benefits at all. We quantify the targeting of the policy in terms of how much benefits flow to small firms less able to access external finance and to sectors worse hit by COVID-19. We find that (1) small firms and vulnerable industries are comparatively more labor intensive, which leads to desirable targeting; (2) labor informality worsens, but does not eliminate, targeting by firm size; and (3) labor informality is uncorrelated with the COVID-19 shock, and therefore does not affect targeting by sector.',
         links: [
             {
-                title: 'Journal',
+                title: 'Paper',
                 url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3686345'
             }
         ]
@@ -81,7 +81,7 @@ const publications = [
 }`,
         links: [
             {
-                title: 'Paper',
+                title: 'Journal',
                 url: 'https://www.journals.uchicago.edu/doi/abs/10.1086/713497?journalCode=tpe'
             },
             {
