@@ -3,6 +3,7 @@ import { workingPapers, publications, policyOutreach } from '../../utils/researc
 import Paper from '../Paper';
 
 function Research() {
+    console.log('Amelia was here')
     return (
         <section>
         <h4>Working Papers</h4>
