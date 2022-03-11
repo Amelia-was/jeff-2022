@@ -67,6 +67,26 @@ const workingPapers = [
 ]
 
 const publications = [
+
+    {
+        title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
+        authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
+        journal: 'Journal of Public Economics (Accepted)',
+        abstract: 'We investigate whether tax incentives are effective in stimulating private investment in less developed countries, by exploiting the introduction of accelerated depreciation for fixed assets investment in China as a natural experiment. In contrast to the large positive impact of similar tax incentives in the U.S. and U.K. found in recent studies, accelerated depreciation appeared ineffective in stimulating Chinese firms\' investment. Using confidential corporate tax returns from a large province, we find that firms fail to claim the tax benefits on over 80 percent of eligible investments. Firms\' take-up of the tax incentive is significantly influenced by their taxable positions and tax sophistication. Information transmission and resources of local tax authorities also play a significant role. Our study contributes to the understanding of conditions under which tax-based investment incentives can be effective.',
+        links: [
+            {
+                title: 'Paper',
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120'
+            },
+            {
+                title: 'Online Appendix',
+                url: 'https://ars.els-cdn.com/content/image/1-s2.0-S0047272722000342-mmc1.pdf'
+            }
+        ]
+    } ,
+
+
+
     {
         title: 'How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some',
         authors: 'Jeffrey Clemens, Joshua Gottlieb, Jeffrey Hicks',
@@ -93,19 +113,8 @@ const publications = [
                 url: 'https://github.com/jeffhicks05/Replication_Package_Clemens_Gottlieb_Hicks_2020'
             }
         ]
-    },
-    {
-        title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
-        authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
-        journal: 'Journal of Public Economics (Accepted)',
-        abstract: 'We investigate whether tax incentives are effective in stimulating private investment in less developed countries, by exploiting the introduction of accelerated depreciation for fixed assets investment in China as a natural experiment. In contrast to the large positive impact of similar tax incentives in the U.S. and U.K. found in recent studies, accelerated depreciation appeared ineffective in stimulating Chinese firms\' investment. Using confidential corporate tax returns from a large province, we find that firms fail to claim the tax benefits on over 80 percent of eligible investments. Firms\' take-up of the tax incentive is significantly influenced by their taxable positions and tax sophistication. Information transmission and resources of local tax authorities also play a significant role. Our study contributes to the understanding of conditions under which tax-based investment incentives can be effective.',
-        links: [
-            {
-                title: 'Paper',
-                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120'
-            }
-        ]
-    }    
+    }
+   
 ]
 
 const policyOutreach = [
