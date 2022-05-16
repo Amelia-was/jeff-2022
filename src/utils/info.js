@@ -4,7 +4,7 @@ const instructor = [
         description: 'Undergrad, University of Toronto, 2021-2022',
         links: [
             {
-                title: 'Evaluations',
+                title: 'Evaluations F2021',
                 url: 'https://jeffreyhickscom.files.wordpress.com/2022/01/ut-blue-as-fall-2021-undergrad-instructor-report-for-labour-economics-i-eco339h1-f-lec0101-jeffrey-hicks.pdf'
             }
         ]

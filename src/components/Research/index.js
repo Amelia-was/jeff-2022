@@ -34,9 +34,6 @@ function Research() {
                 links={policyOutreach[0].links}
                 abstract={policyOutreach[0].abstract}
                 citation={policyOutreach[0].citation} />
-            <p>
-                A series of academic papers stemming from this work are expected in 2021.
-            </p>
         </section>
     )
 }

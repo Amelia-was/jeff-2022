@@ -38,8 +38,8 @@ const workingPapers = [
     {
         title: 'How Well-Targeted are Payroll Tax Cuts as a Response to COVID-19? Evidence from China',
         authors: 'Wei Cui, Jeffrey Hicks, Max Norton',
-        journal: 'November 2021',
-        abstract: 'Numerous countries cut payroll taxes in response to COVID-19, including China, which reduced employer contributions by 21 percentage points. We use administrative data on 900,000 firms to evaluate payroll tax cuts as a business relief measure. We estimate that the tax cuts cover 31.5% of the decline in business cash flow, but labor informality causes 53% of registered firms—24% of aggregate economic activity—to receive no benefits at all. We quantify the targeting of the policy in terms of how much benefits flow to small firms less able to access external finance and to sectors worse hit by COVID-19. We find that (1) small firms and vulnerable industries are comparatively more labor intensive, which leads to desirable targeting; (2) labor informality worsens, but does not eliminate, targeting by firm size; and (3) labor informality is uncorrelated with the COVID-19 shock, and therefore does not affect targeting by sector.',
+        journal: 'International Tax and Public Finance (Revised and Resubmitted)',
+        abstract: 'Numerous countries cut payroll taxes in response to COVID-19, including China, which reduced employer contributions by up to 21 percentage points. We use administrative data on more than 800,000 Chinese firms to evaluate payroll tax cuts as a business relief measure. We estimate that the tax cuts cover 31.5% of the decline in business cash flow, but labor informality causes 53% of registered firms---24% of aggregate economic activity---to receive no benefits at all. We quantify the targeting of the policy in terms of how much benefits flow to small firms less able to access external finance and to sectors worse hit by COVID-19. We find that (1) small firms and vulnerable industries are comparatively more labor intensive, which leads to desirable targeting; (2) labor informality worsens, but does not eliminate, targeting by firm size; and (3) labor informality is uncorrelated with the COVID-19 shock, and therefore does not affect targeting by sector.',
         links: [
             {
                 title: 'Paper',
@@ -71,9 +71,24 @@ const publications = [
     {
         title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
         authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
-        journal: 'Journal of Public Economics (Accepted)',
+        journal: 'Journal of Public Economics, 2022, Vol 208',
         abstract: 'We investigate whether tax incentives are effective in stimulating private investment in less developed countries, by exploiting the introduction of accelerated depreciation for fixed assets investment in China as a natural experiment. In contrast to the large positive impact of similar tax incentives in the U.S. and U.K. found in recent studies, accelerated depreciation appeared ineffective in stimulating Chinese firms\' investment. Using confidential corporate tax returns from a large province, we find that firms fail to claim the tax benefits on over 80 percent of eligible investments. Firms\' take-up of the tax incentive is significantly influenced by their taxable positions and tax sophistication. Information transmission and resources of local tax authorities also play a significant role. Our study contributes to the understanding of conditions under which tax-based investment incentives can be effective.',
+        citation: `@article{CuiHicksXing,
+            title = {Cash on the table? Imperfect take-up of tax incentives and firm investment behavior},
+            journal = {Journal of Public Economics},
+            volume = {208},
+            pages = {104632},
+            year = {2022},
+            issn = {0047-2727},
+            doi = {https://doi.org/10.1016/j.jpubeco.2022.104632},
+            url = {https://www.sciencedirect.com/science/article/pii/S0047272722000342},
+            author = {Wei Cui and Jeffrey Hicks and Jing Xing},
+        }`, 
         links: [
+            {
+                title: 'Journal',
+                url: 'https://www.sciencedirect.com/science/article/pii/S0047272722000342?dgcid=author'
+            },
             {
                 title: 'Paper',
                 url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120'
@@ -81,28 +96,38 @@ const publications = [
             {
                 title: 'Online Appendix',
                 url: 'https://ars.els-cdn.com/content/image/1-s2.0-S0047272722000342-mmc1.pdf'
+            },
+            {
+                title: 'Code',
+                url: 'https://github.com/jeffhicks05/Code_Package_Cash_on_the_Table'
             }
         ]
     } ,
-
-
-
     {
         title: 'How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some',
         authors: 'Jeffrey Clemens, Joshua Gottlieb, Jeffrey Hicks',
         journal: 'Tax Policy and the Economy, 2021, Vol 35',
         abstract: 'Proposals to create a national health care plan such as "Medicare for All" rely heavily on reducing the prices that insurers pay for health care. These changes affect physicians\' short-run incentives for care provision and may also change health care providers\' incentives to invest in capacity, thereby influencing the availability of care in the long term. We provide evidence on these responses using a major Medicare payment change combined with survey data on physicians\' time use. We find evidence that physicians increase their time spent on capacity building when remuneration increases, and that they are subsequently more willing to accept new patients—especially those who may be the residual claimants on marginal capacity. These forces imply that short-run supply curves likely differ from long-run supply curves. Policymakers need to account for how major changes to payment incentives would influence the investments that determine health system capacity.',
         citation: `@article{ClemensGottliebHicks,
-	title = {How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some},
-	author = {Jeffrey Clemens and Joshua D. Gottlieb and Jeffrey Hicks},
-	year = {2020},
-	journal = {Tax Policy and the Economy},
-	month = {forthcoming}
+            author = {Clemens, Jeffrey and Gottlieb, Joshua D. and Hicks, Jeffrey},
+            title = {How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some},
+            journal = {Tax Policy and the Economy},
+            volume = {35},
+            number = {},
+            pages = {225-262},
+            year = {2021},
+            doi = {10.1086/713497},
+    url = {https://www.journals.uchicago.edu/doi/abs/10.1086/713497?journalCode=tpe}
 }`,
         links: [
             {
                 title: 'Journal',
                 url: 'https://www.journals.uchicago.edu/doi/abs/10.1086/713497?journalCode=tpe'
+            },
+            {
+                title: `Paper`,
+                url: `https://www.nber.org/papers/w28062`    
+
             },
             {
                 title: 'Online Appendix',
@@ -123,6 +148,16 @@ const policyOutreach = [
     authors: 'David Green, Jeffrey Hicks, Rebecca Warburton, Bill Warburton',
     journal: 'Commissioned by the Expert Panel on Basic Income, British Columbia (2021)',
     abstract: 'This paper documents various features of B.C. Income Assistance (IA), including durations of spells of IA, how durations differ according to recipient case characteristics, and how durations and case characteristics have changed over time from February 1989 through December 2017, based on official B.C. administrative data. The goal of the paper is to relate these patterns to key policy questions, and so it is framed as a set of main patterns, each followed by a list of policy implications.',
+    citation: `@article{GreenHicksWarburtons,
+        author = {Green, David and Hicks, Jeffrey and Warburton, Rebecca and Warburton, William},
+        title = {BC Income Assistance Trends and Dynamics: Descriptions and Policy Implications},
+        journal = {Report commissioned by the Expert Panel on Basic Income},
+        volume = {},
+        number = {},
+        pages = {},
+        year = {2021},
+url = {https://econ2017.sites.olt.ubc.ca/files/2021/03/BC-Income-Assistance-Trends-and-Dynamics-Descriptions-and-Policy-Implications_Green_Hicks_RWarburton_BWarburton1.pdf}
+}`, 
     links: [
         {
             title: 'Journal',
