@@ -38,6 +38,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "ajv": "^8.11.0",
+    "gh-pages": "^3.2.3",
+    "nth-check": "^2.0.1",
+    "typescript": "^2.8.4"
   }
 }
