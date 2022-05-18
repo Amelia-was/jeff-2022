@@ -5,7 +5,13 @@ const instructor = [
         links: [
             {
                 title: 'Evaluations F2021',
-                url: 'https://jeffreyhickscom.files.wordpress.com/2022/01/ut-blue-as-fall-2021-undergrad-instructor-report-for-labour-economics-i-eco339h1-f-lec0101-jeffrey-hicks.pdf'
+                url: 'LabourEconomicsF2021.pdf',
+                external: false
+            },
+            {
+                title: 'Evaluations W2022',
+                url: 'LabourEconomicsW2022.pdf',
+                external: false
             }
         ]
     }
@@ -22,11 +28,13 @@ const teachingAssistant = [
         links: [
             {
                 title: 'Evaluations 1',
-                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/gpp1.pdf'
+                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/gpp1.pdf',
+                external: false
             },
             {
                 title: 'Evaluations 2',
-                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/gpp2.pdf'
+                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/gpp2.pdf',
+                external: false
             }
         ]
     },
@@ -36,7 +44,8 @@ const teachingAssistant = [
         links: [
             {
                 title: 'Evaluation',
-                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/costbenefit.pdf'
+                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/costbenefit.pdf',
+                external: false
             }
         ]
     },
