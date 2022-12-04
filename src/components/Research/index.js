@@ -1,5 +1,6 @@
 import React from 'react';
-import { workingPapers, publications, policyOutreach } from '../../utils/research';
+
+import { workingPapers, publications, worksInProgress, policyOutreach } from '../../utils/research';
 import Paper from '../Paper';
 
 function Research() {
@@ -17,6 +18,15 @@ function Research() {
                 citation={paper.citation} />)}
         <h4>Publications</h4>
             {publications.map(paper => <Paper
+                key={paper.title}
+                title={paper.title}
+                authors={paper.authors}
+                journal={paper.journal}
+                links={paper.links}
+                abstract={paper.abstract}
+                citation={paper.citation} />)}
+            <h4>Works In Progress</h4>
+            {worksInProgress.map(paper => <Paper
                 key={paper.title}
                 title={paper.title}
                 authors={paper.authors}

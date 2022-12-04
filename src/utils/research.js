@@ -34,18 +34,26 @@
         ]
     }
 */
+
+
+
 const workingPapers = [
     {
-        title: 'How Well-Targeted are Payroll Tax Cuts as a Response to COVID-19? Evidence from China',
-        authors: 'Wei Cui, Jeffrey Hicks, Max Norton',
-        journal: 'International Tax and Public Finance (Revised and Resubmitted)',
-        abstract: 'Numerous countries cut payroll taxes in response to COVID-19, including China, which reduced employer contributions by up to 21 percentage points. We use administrative data on more than 800,000 Chinese firms to evaluate payroll tax cuts as a business relief measure. We estimate that the tax cuts cover 31.5% of the decline in business cash flow, but labor informality causes 53% of registered firms---24% of aggregate economic activity---to receive no benefits at all. We quantify the targeting of the policy in terms of how much benefits flow to small firms less able to access external finance and to sectors worse hit by COVID-19. We find that (1) small firms and vulnerable industries are comparatively more labor intensive, which leads to desirable targeting; (2) labor informality worsens, but does not eliminate, targeting by firm size; and (3) labor informality is uncorrelated with the COVID-19 shock, and therefore does not affect targeting by sector.',
+        title: 'The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
+        authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard - Duplain (Co-Lead Author), David Green, William Warburton',
+        abstract: 'How does welfare affect the prosperity of mothers and their children? We study this question using a Canadian welfare reform and by linking administrative welfare records to tax returns, nearly all medical spending, and children\'s educational attainment. Eighty percent of mothers in the complier group found employment within a year, and for many, total income rose despite reduced transfers. We find precise zero effects on total health expenditures for both mothers and children. However, composition changes, including fewer family physician visits, indicate that mothers had less time to seek health care. We find precise zero effects on children\’s test scores and graduation, but modest reductions of intergenerational transmission of welfare.',
+        journal: 'June 2022 Under Revision',
         links: [
             {
                 title: 'Paper',
-                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3686345'
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4147958'
             }
         ]
+    },
+    {
+        title: 'Cash Welfare, Health Spending, and Long-Run Dependence',
+        authors: 'Jeffrey Hicks',
+        journal: 'Under pre-publication ministry review'
     },
     {
         title: 'The Spillover Effects of Top Income Inequality',
@@ -58,16 +66,45 @@ const workingPapers = [
                 url: 'http://users.nber.org/~jdgottl/SpilloversGHHO.pdf'
             }
         ]
-    },
-    {
-        title: 'Resilient Mothers: The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
-        authors: 'Jeffrey Hicks, Gaelle Simard - Duplain, David Green, William Warburton',
-        journal: 'Coming Soon'
     }
 ]
 
 const publications = [
+    {
+        title: 'How Well-Targeted are Payroll Tax Cuts as a Response to COVID-19? Evidence from China',
+        authors: 'Wei Cui, Jeffrey Hicks, Max Norton',
+        journal: 'International Tax and Public Finance, 2022, Vol 29',
+        abstract: 'Numerous countries cut payroll taxes in response to COVID-19, including China, which reduced employer contributions by up to 21 percentage points. We use administrative data on more than 800,000 Chinese firms to evaluate payroll tax cuts as a business relief measure. We estimate that the tax cuts cover 31.5% of the decline in business cash flow, but labor informality causes 53% of registered firms---24% of aggregate economic activity---to receive no benefits at all. We quantify the targeting of the policy in terms of how much benefits flow to small firms less able to access external finance and to sectors worse hit by COVID-19. We find that (1) small firms and vulnerable industries are comparatively more labor intensive, which leads to desirable targeting; (2) labor informality worsens, but does not eliminate, targeting by firm size; and (3) labor informality is uncorrelated with the COVID-19 shock, and therefore does not affect targeting by sector.',
+        citation: `@article{CuiHicksNorton,
+            title = {How Well-Targeted are Payroll Tax Cuts as a Response to COVID-19? Evidence from China},
+            journal = {International Tax and Public Finance},
+            year = {2022},
+            volume = {29},
+            number = {5},
+            doi = {https://doi.org/10.1007/s10797-022-09746-w},
+            url = {https://link.springer.com/article/10.1007/s10797-022-09746-w},
+            author = {Cui, Wei and Hicks, Jeffrey and Norton, Max},
+        }`, 
+        links: [
+            {
+                title: 'Journal',
+                url: 'https://link.springer.com/article/10.1007/s10797-022-09746-w'
+            },
+            {
+                title: 'Paper',
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3686345'
+            },
+            {
+               title: 'Online Appendix',
+               url: 'https://static-content.springer.com/esm/art%3A10.1007%2Fs10797-022-09746-w/MediaObjects/10797_2022_9746_MOESM1_ESM.pdf' 
+            },
+            {
+                title: 'Code',
+                url: 'https://github.com/jeffhicks05/Code_repository_for_cui_hicks_norton_2022'
+            }
 
+        ]
+    },
     {
         title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
         authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
@@ -82,7 +119,7 @@ const publications = [
             issn = {0047-2727},
             doi = {https://doi.org/10.1016/j.jpubeco.2022.104632},
             url = {https://www.sciencedirect.com/science/article/pii/S0047272722000342},
-            author = {Wei Cui and Jeffrey Hicks and Jing Xing},
+            author = {Cui, Wei and Hicks, Jeffrey and Xing, Jing},
         }`, 
         links: [
             {
@@ -142,6 +179,14 @@ const publications = [
    
 ]
 
+const worksInProgress = [
+    {
+    title: 'In-person Support, Application Costs, and Screening in Income Support Programs',
+    authors: 'Jeffrey Hicks'
+    }
+]
+
+
 const policyOutreach = [
     {
     title: 'BC Income Assistance Trends and Dynamics: Descriptions and Policy Implications',
@@ -167,4 +212,4 @@ url = {https://econ2017.sites.olt.ubc.ca/files/2021/03/BC-Income-Assistance-Tren
     }
 ]
 
-module.exports = { workingPapers, publications, policyOutreach }
+module.exports = { workingPapers, publications, worksInProgress, policyOutreach }

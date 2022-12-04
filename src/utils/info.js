@@ -1,15 +1,17 @@
 const instructor = [
     {
         title: 'Labour Economics: Employment, Wages, and Public Policy',
-        description: 'Undergrad, University of Toronto, 2021-2022',
+        description: 'Undergrad, University of Toronto, 2021-2023',
+    },
+    {
         links: [
             {
-                title: 'Evaluations F2021',
+                title: 'Fall 2021 Evals: 4.7/5, Response Rate: 60%',
                 url: 'LabourEconomicsF2021.pdf',
                 external: false
             },
             {
-                title: 'Evaluations W2022',
+                title: 'Winter 2022 Evals: 4.7/5, Response Rate: 38%',
                 url: 'LabourEconomicsW2022.pdf',
                 external: false
             }
@@ -28,12 +30,12 @@ const teachingAssistant = [
         links: [
             {
                 title: 'Evaluations 1',
-                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/gpp1.pdf',
+                url: 'GPP1.PDF',
                 external: false
             },
             {
                 title: 'Evaluations 2',
-                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/gpp2.pdf',
+                url: 'GPP2.PDF',
                 external: false
             }
         ]
@@ -77,7 +79,76 @@ const education = [
     }
 ]
 
+
+
+const researchGrants = [
+    {
+        title: 'Postdoctoral Fellowship',
+        description: 'Social Sciences and Humanities Research Council(SSRCH), 2021 - 2023'
+    },
+    {
+        title: 'Center for Innovative Data in Economics Grant(1)',
+        description: '2019'
+    },
+    {
+        title: 'Center for Innovative Data in Economics Grant(2)',
+        description: '2019'
+    },
+    {
+        title: 'Doctoral Award, Social Sciences and Humanities Research Council(SSHRC)',
+        description: '2018 - 20'
+
+    }
+]
+
+const awards = [
+    {
+        title: 'UBC Public Scholars Initiative',
+        description: '2020'
+    },
+    {
+        title: 'CRDCN Emerging Scholars Grant',
+        description: '2019'
+    },
+    {
+        title: 'Best Poster Session, CRDCN Annual Conference',
+        description: '2018'
+    },
+    {
+        title: 'Visiting Research Fellowship, Department of Finance, Canada',
+        description: '2018'
+    },
+    {
+        title: 'Albert Whiteley Memorial Fellowship, University of British Columbia',
+        description: '2018'
+    },
+    {
+        title: 'Scarthingmoor Award for Best MA Thesis, Queen\'s University',
+        description: '2015'
+    },
+    {
+        title: 'Canada Graduate Scholarship',
+        description: 'SSHRC, 2014 - 15'
+    }
+]
 const invitedPresentations = [
+
+    {
+        title: 'Canadian Public Economics Group Annual Conference',
+        description: 'November 2022'
+    },  
+    {
+        title: 'Banff Empirical Microeconomics Conference',
+        description: 'August 2022'
+    },
+    {
+        title: 'Canadian Economics Association',
+        description: 'June 2022'
+    },
+    {
+        title: 'Online Public Finance Seminar',
+        description: 'April 2022'
+    }, 
     {
         title: 'Finances of the Nation',
         description: 'December 2021'
@@ -135,61 +206,9 @@ const invitedPresentations = [
         description: 'October 2018'
     }
 ]
-
-const researchGrants = [
-    {
-        title: 'Postdoctoral Fellowship',
-        description: 'Social Sciences and Humanities Research Council(SSRCH), 2021 - 2023'
-    },
-    {
-        title: 'Center for Innovative Data in Economics Grant(1)',
-        description: '2019'
-    },
-    {
-        title: 'Center for Innovative Data in Economics Grant(2)',
-        description: '2019'
-    },
-    {
-        title: 'Doctoral Award, Social Sciences and Humanities Research Council(SSHRC)',
-        description: '2018 - 20'
-
-    }
-]
-
-const awards = [
-    {
-        title: 'UBC Public Scholars Initiative',
-        description: '2020'
-    },
-    {
-        title: 'CRDCN Emerging Scholars Grant',
-        description: '2019'
-    },
-    {
-        title: 'Best Poster Session, CRDCN Annual Conference',
-        description: '2018'
-    },
-    {
-        title: 'Visiting Research Fellowship, Department of Finance, Canada',
-        description: '2018'
-    },
-    {
-        title: 'Albert Whiteley Memorial Fellowship, University of British Columbia',
-        description: '2018'
-    },
-    {
-        title: 'Scarthingmoor Award for Best MA Thesis, Queen\'s University',
-        description: '2015'
-    },
-    {
-        title: 'Canada Graduate Scholarship',
-        description: 'SSHRC, 2014 - 15'
-    }
-]
-
 const refereeService = [
     {
-        title: 'Journal of Public Economics(3), Journal of Development Economics(1), Canadian Tax Journal(1), Canadian Public Policy(1), Institute for Research on Public Policy(1)',
+        title: 'Journal of Public Economics (3), Journal of Development Economics (1), Journal of Economic Dynamics and Control (1), Canadian Tax Journal(1), Canadian Public Policy(1), Institute for Research on Public Policy(1)',
         description: ''
     }
 ]
