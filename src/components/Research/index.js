@@ -13,6 +13,7 @@ function Research() {
                 title={paper.title}
                 authors={paper.authors}
                 journal={paper.journal}
+                date={paper.date}
                 links={paper.links}
                 abstract={paper.abstract}
                 citation={paper.citation} />)}
@@ -22,6 +23,7 @@ function Research() {
                 title={paper.title}
                 authors={paper.authors}
                 journal={paper.journal}
+                date={paper.date}
                 links={paper.links}
                 abstract={paper.abstract}
                 citation={paper.citation} />)}
@@ -31,6 +33,7 @@ function Research() {
                 title={paper.title}
                 authors={paper.authors}
                 journal={paper.journal}
+                date={paper.date}
                 links={paper.links}
                 abstract={paper.abstract}
                 citation={paper.citation} />)}
