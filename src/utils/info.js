@@ -6,15 +6,28 @@ const instructor = [
     {
         links: [
             {
-                title: 'Fall 2021 Evals: 4.7/5, Response Rate: 60%',
+                title: 'F2021 Evals: 4.7/5, Response Rate: 60%',
                 url: 'LabourEconomicsF2021.pdf',
                 external: false
             },
             {
-                title: 'Winter 2022 Evals: 4.7/5, Response Rate: 38%',
+                title: 'W2022 Evals: 4.7/5, Response Rate: 38%',
                 url: 'LabourEconomicsW2022.pdf',
                 external: false
+            },
+            {
+                title: 'F2022 Evals: 4.7/5, Response Rate: 56%',
+                url: 'LabourEconomicsF2022.pdf',
+                external: false
+            },
+            {
+                title: 'W2023 Evals: 4.5/5, Response Rate: 30%',
+                url: 'LabourEconomicsW2023.pdf',
+                external: false
             }
+
+
+
         ]
     }
 ]
@@ -84,18 +97,18 @@ const education = [
 const researchGrants = [
     {
         title: 'Postdoctoral Fellowship',
-        description: 'Social Sciences and Humanities Research Council(SSRCH), 2021 - 2023'
+        description: 'Social Sciences and Humanities Research Council (SSHRC), 2021 - 2023'
     },
     {
-        title: 'Center for Innovative Data in Economics Grant(1)',
+        title: 'Center for Innovative Data in Economics Grant (1)',
         description: '2019'
     },
     {
-        title: 'Center for Innovative Data in Economics Grant(2)',
+        title: 'Center for Innovative Data in Economics Grant (2)',
         description: '2019'
     },
     {
-        title: 'Doctoral Award, Social Sciences and Humanities Research Council(SSHRC)',
+        title: 'Doctoral Award, Social Sciences and Humanities Research Council (SSHRC)',
         description: '2018 - 20'
 
     }
@@ -132,7 +145,18 @@ const awards = [
     }
 ]
 const invitedPresentations = [
-
+    {
+        title: 'UBC Allard Tax Policy Seminar',
+        description: 'September 2023'
+    },     
+    {
+        title: 'Canadian Economics Association',
+        description: 'June 2023'
+    },  
+    {
+        title: 'Society of Labor Economists Annual Conference',
+        description: 'May 2023'
+    },  
     {
         title: 'Canadian Public Economics Group Annual Conference',
         description: 'November 2022'
@@ -202,13 +226,13 @@ const invitedPresentations = [
         description: 'October 2018'
     },
     {
-        title: 'Canadian Research Data Center Network Annual Conference(Poster)',
+        title: 'Canadian Research Data Center Network Annual Conference (Poster)',
         description: 'October 2018'
     }
 ]
 const refereeService = [
     {
-        title: 'Journal of Public Economics (3), Journal of Development Economics (1), Journal of Economic Dynamics and Control (1), Canadian Tax Journal(1), Canadian Public Policy(1), Institute for Research on Public Policy(1)',
+        title: 'American Economic Journal: Economic Policy (1), Journal of Public Economics (3), Journal of Development Economics (1), Journal of Economic Dynamics and Control (1), Canadian Tax Journal (1), Canadian Public Policy (1), Institute for Research on Public Policy (1)',
         description: ''
     }
 ]
@@ -228,7 +252,7 @@ const software = [
     },
     {
         title: 'MATLAB',
-        description: ''
+        description: '(for simulating)'
     }
 ]
 
@@ -243,4 +267,4 @@ const languages = [
     }
 ]
 
-module.exports = { instructor, teachingAssistant, education, invitedPresentations, researchGrants, awards, refereeService, software, languages }
+module.exports = { instructor, teachingAssistant, education, researchGrants, awards, refereeService, invitedPresentations, software, languages }

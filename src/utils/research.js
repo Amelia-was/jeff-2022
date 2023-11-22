@@ -40,40 +40,140 @@
 const workingPapers = [
     {
         title: 'The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
-        authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard - Duplain (Co-Lead Author), David Green, William Warburton',
-        abstract: 'How does welfare affect the prosperity of mothers and their children? We study this question using a Canadian welfare reform and by linking administrative welfare records to tax returns, nearly all medical spending, and children\'s educational attainment. Eighty percent of mothers in the complier group found employment within a year, and for many, total income rose despite reduced transfers. We find precise zero effects on total health expenditures for both mothers and children. However, composition changes, including fewer family physician visits, indicate that mothers had less time to seek health care. We find precise zero effects on children\’s test scores and graduation, but modest reductions of intergenerational transmission of welfare.',
-        journal: 'June 2022 Under Revision',
+        authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard-Duplain (Co-Lead Author), David Green, William Warburton',
+        abstract: 'Welfare caseloads in North America halved following reforms in the 1990s and 2000s. We study how this shift affected families by linking Canadian welfare records to tax returns, medical spending, educational attainment, and crime data. We find substantial and heterogeneous employment responses that increased average income despite reduced transfers. We find zero effects on aggregate health expenditures, but mothers saw reduced preventative care and increased mental health treatment, consistent with the transition to employment elevating time pressure and stress. We find no effect on teenagers’ education and criminal charges as young adults but do find evidence of intergenerational welfare transmission.',
+        journal: 'Job Market Paper 1,',
+        citation: `@Article{Hicks2023,
+            author    = {Hicks, Jeffrey and Simard-Duplain, Gaelle and Green, David and Warburton, William},
+            journal   = {SSRN Electronic Journal},
+            title     = {The Effect of Reducing Welfare Access on Employment, Health, and Children's Long-Run Outcomes},
+            year      = {2023},
+            month     = {10},
+            date      = {2023-10-02},
+            day       = {2},
+            doi       = {10.2139/ssrn.4147958},
+            publisher = {Elsevier BV},
+          }`,
         links: [
             {
                 title: 'Paper',
-                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4147958'
-            }
+                url: 'https://docs.iza.org/dp16516.pdf'
+            },    
         ]
     },
     {
-        title: 'Cash Welfare, Health Spending, and Long-Run Dependence',
+        title: 'Cash Welfare and Health Spending',
         authors: 'Jeffrey Hicks',
-        journal: 'Under pre-publication ministry review'
+        journal: 'Job Market Paper 2,',
+        abstract: 'I explore the interplay between cash welfare programs and health using Canadian administrative data. Health spending doubles before a welfare application, then partially returns to normal levels within three years. Using quasi-experimental variation in application adjudicators, I estimate that welfare receipt has, at most, minor positive effects on universally insured healthcare use. These findings imply that welfare insures against health risk without significantly affecting health outcomes. Welfare does substantially increase pharmaceutical use, which is not universally insured but for which welfare recipients are subsidized, implying that incomplete drug insurance strongly limits medication access among low-income households that cannot access welfare.',
+        citation: `@Article{Hicks2023b,
+            author    = {Hicks, Jeffrey and Welfare, Cash and Spending, Health},
+            journal   = {SSRN Electronic Journal},
+            title     = {Cash Welfare and Health Spending},
+            year      = {2023},
+            month     = {6},
+            date      = {2023-06-15},
+            day       = {15},
+            doi       = {10.2139/ssrn.4366181},
+            publisher = {Elsevier BV},
+          } `,
+        links: [
+            {
+                title: 'SSRN Paper',
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4366181'
+
+            },
+            {
+                title: 'Ungated',
+                url: 'https://www.dropbox.com/scl/fi/pf8ee599jb255dygct411/VO_June2023.pdf?rlkey=b7wtno7zfrdokkww19712rtmh&dl=0'
+            },
+        ]
+    },
+    {
+        title: 'In-person Support, Application Costs, and Screening in Income Support Programs',
+        authors: 'Jeffrey Hicks',
+        journal: 'In Preparation'
     },
     {
         title: 'The Spillover Effects of Top Income Inequality',
         authors: 'Joshua Gottlieb, David Hemous, Jeffrey Hicks, Morten Olsen',
-        journal: 'December 2019',
-        abstract: 'Top income inequality in the United States has increased considerably within occupations as diverse as bankers, managers, doctors, lawyers and scientists. The breadth of this phenomenon has led to a search for a common explanation.We show instead that increases in income inequality originating within a few occupations can "spill over" into others, driving broader changes in income inequality. We develop an assignment model where widget makers with heterogeneous income buy services from doctors with heterogeneous ability. In equilibrium the highest-earning widget makers match with the highest-ability doctors. Increases in income inequality among the widget makers feed directly into the doctors\' income inequality.We provide empirical support for the proposed mechanism using data on the match between doctors and patients, and the payments doctors receive. Using a Bartik-style instrument, we show that an increase in general income inequality causes higher income inequality for doctors and dentists, and in fact accounts for most of the increases in inequality within these occupations.',
+        journal: 'R&R Econometrica, June 2023,',
+        abstract: 'Top income inequality in the United States has increased considerably within occupations. This phenomenon has led to a search for a common explanation. We instead develop a theory where increases in income inequality originating within a few occupations can “spill over” through consumption into others. We show theoretically that such spillovers occur when an occupation provides nondivisible services to consumers, with physicians our prime example. Examining local income inequality across U.S. regions, the data suggest that such spillovers exist for physicians, dentists, and real estate agents. Estimated spillovers for other occupations are consistent with the predictions of our theory.',
+        citation: `@techreport{GottliebHemousHicksOlsen,
+            title = "The Spillover Effects of Top Income Inequality",
+            author = "Gottlieb, Joshua D and Hémous, David and Hicks, Jeffrey and Olsen, Morten G",
+            institution = "National Bureau of Economic Research",
+            type = "Working Paper",
+            series = "Working Paper Series",
+            number = "31366",
+            year = "2023",
+            month = "June",
+            doi = {10.3386/w31366},
+            URL = "http://www.nber.org/papers/w31366",
+           }`,
         links: [
             {
                 title: 'Paper',
                 url: 'http://users.nber.org/~jdgottl/SpilloversGHHO.pdf'
-            }
+            },
+            {title: 'Supplementary Appendix',
+            url: 'https://www.gottlieb.ca/papers/SpilloversGHHO_SuppApp.pdf'}
+        ]
+    },
+    {
+        title: '(Short Paper) Administrative Procedures as Tax Enforcement Tools',
+        authors: 'Wei Cui, Jeffrey Hicks, Michael Wiebe',
+        journal: 'October 2023,',
+        abstract: 'We study how common administrative procedures affect firm tax evasion. We begin with the counter-intuitive observation that many firms bunch above, rather than below, large notches in China\'s corporate income tax. Cross-sectional patterns suggest that regulatory procedures in the prepayment and refund system served as de facto enforcement tools that prevented some firms from accessing the reduced tax rates below the notches. Following a regulatory reform that eliminated these procedures, bunching below the notches increased dramatically. The results imply a tradeoff between reducing administrative barriers and allowing much taxpayer non-compliance.',
+        links: [
+            {
+                title: 'Paper',
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4615247'
+            },
         ]
     }
 ]
 
 const publications = [
     {
+        title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
+        authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
+        journal: 'Journal of Public Economics, 2022, Vol 208,',
+        abstract: 'We investigate whether tax incentives are effective in stimulating private investment in less developed countries, by exploiting the introduction of accelerated depreciation for fixed assets investment in China as a natural experiment. In contrast to the large positive impact of similar tax incentives in the U.S. and U.K. found in recent studies, accelerated depreciation appeared ineffective in stimulating Chinese firms\' investment. Using confidential corporate tax returns from a large province, we find that firms fail to claim the tax benefits on over 80 percent of eligible investments. Firms\' take-up of the tax incentive is significantly influenced by their taxable positions and tax sophistication. Information transmission and resources of local tax authorities also play a significant role. Our study contributes to the understanding of conditions under which tax-based investment incentives can be effective.',
+        citation: `@article{CuiHicksXing,
+            title = {Cash on the table? Imperfect take-up of tax incentives and firm investment behavior},
+            journal = {Journal of Public Economics},
+            volume = {208},
+            pages = {104632},
+            year = {2022},
+            issn = {0047-2727},
+            doi = {https://doi.org/10.1016/j.jpubeco.2022.104632},
+            url = {https://www.sciencedirect.com/science/article/pii/S0047272722000342},
+            author = {Cui, Wei and Hicks, Jeffrey and Xing, Jing}
+        }`, 
+        links: [
+            {
+                title: 'Journal',
+                url: 'https://www.sciencedirect.com/science/article/pii/S0047272722000342?dgcid=author'
+            },
+            {
+                title: 'Paper',
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120'
+            },
+            {
+                title: 'Online Appendix',
+                url: 'https://ars.els-cdn.com/content/image/1-s2.0-S0047272722000342-mmc1.pdf'
+            },
+            {
+                title: 'Code',
+                url: 'https://github.com/jeffhicks05/Code_Package_Cash_on_the_Table'
+            }
+        ]
+    } ,
+    {
         title: 'How Well-Targeted are Payroll Tax Cuts as a Response to COVID-19? Evidence from China',
         authors: 'Wei Cui, Jeffrey Hicks, Max Norton',
-        journal: 'International Tax and Public Finance, 2022, Vol 29',
+        journal: 'International Tax and Public Finance, 2022, Vol 29,',
         abstract: 'Numerous countries cut payroll taxes in response to COVID-19, including China, which reduced employer contributions by up to 21 percentage points. We use administrative data on more than 800,000 Chinese firms to evaluate payroll tax cuts as a business relief measure. We estimate that the tax cuts cover 31.5% of the decline in business cash flow, but labor informality causes 53% of registered firms---24% of aggregate economic activity---to receive no benefits at all. We quantify the targeting of the policy in terms of how much benefits flow to small firms less able to access external finance and to sectors worse hit by COVID-19. We find that (1) small firms and vulnerable industries are comparatively more labor intensive, which leads to desirable targeting; (2) labor informality worsens, but does not eliminate, targeting by firm size; and (3) labor informality is uncorrelated with the COVID-19 shock, and therefore does not affect targeting by sector.',
         citation: `@article{CuiHicksNorton,
             title = {How Well-Targeted are Payroll Tax Cuts as a Response to COVID-19? Evidence from China},
@@ -83,7 +183,7 @@ const publications = [
             number = {5},
             doi = {https://doi.org/10.1007/s10797-022-09746-w},
             url = {https://link.springer.com/article/10.1007/s10797-022-09746-w},
-            author = {Cui, Wei and Hicks, Jeffrey and Norton, Max},
+            author = {Cui, Wei and Hicks, Jeffrey and Norton, Max}
         }`, 
         links: [
             {
@@ -106,44 +206,9 @@ const publications = [
         ]
     },
     {
-        title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
-        authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
-        journal: 'Journal of Public Economics, 2022, Vol 208',
-        abstract: 'We investigate whether tax incentives are effective in stimulating private investment in less developed countries, by exploiting the introduction of accelerated depreciation for fixed assets investment in China as a natural experiment. In contrast to the large positive impact of similar tax incentives in the U.S. and U.K. found in recent studies, accelerated depreciation appeared ineffective in stimulating Chinese firms\' investment. Using confidential corporate tax returns from a large province, we find that firms fail to claim the tax benefits on over 80 percent of eligible investments. Firms\' take-up of the tax incentive is significantly influenced by their taxable positions and tax sophistication. Information transmission and resources of local tax authorities also play a significant role. Our study contributes to the understanding of conditions under which tax-based investment incentives can be effective.',
-        citation: `@article{CuiHicksXing,
-            title = {Cash on the table? Imperfect take-up of tax incentives and firm investment behavior},
-            journal = {Journal of Public Economics},
-            volume = {208},
-            pages = {104632},
-            year = {2022},
-            issn = {0047-2727},
-            doi = {https://doi.org/10.1016/j.jpubeco.2022.104632},
-            url = {https://www.sciencedirect.com/science/article/pii/S0047272722000342},
-            author = {Cui, Wei and Hicks, Jeffrey and Xing, Jing},
-        }`, 
-        links: [
-            {
-                title: 'Journal',
-                url: 'https://www.sciencedirect.com/science/article/pii/S0047272722000342?dgcid=author'
-            },
-            {
-                title: 'Paper',
-                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3695120'
-            },
-            {
-                title: 'Online Appendix',
-                url: 'https://ars.els-cdn.com/content/image/1-s2.0-S0047272722000342-mmc1.pdf'
-            },
-            {
-                title: 'Code',
-                url: 'https://github.com/jeffhicks05/Code_Package_Cash_on_the_Table'
-            }
-        ]
-    } ,
-    {
         title: 'How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some',
         authors: 'Jeffrey Clemens, Joshua Gottlieb, Jeffrey Hicks',
-        journal: 'Tax Policy and the Economy, 2021, Vol 35',
+        journal: 'Tax Policy and the Economy, 2021, Vol 35,',
         abstract: 'Proposals to create a national health care plan such as "Medicare for All" rely heavily on reducing the prices that insurers pay for health care. These changes affect physicians\' short-run incentives for care provision and may also change health care providers\' incentives to invest in capacity, thereby influencing the availability of care in the long term. We provide evidence on these responses using a major Medicare payment change combined with survey data on physicians\' time use. We find evidence that physicians increase their time spent on capacity building when remuneration increases, and that they are subsequently more willing to accept new patients—especially those who may be the residual claimants on marginal capacity. These forces imply that short-run supply curves likely differ from long-run supply curves. Policymakers need to account for how major changes to payment incentives would influence the investments that determine health system capacity.',
         citation: `@article{ClemensGottliebHicks,
             author = {Clemens, Jeffrey and Gottlieb, Joshua D. and Hicks, Jeffrey},
@@ -180,10 +245,7 @@ const publications = [
 ]
 
 const worksInProgress = [
-    {
-    title: 'In-person Support, Application Costs, and Screening in Income Support Programs',
-    authors: 'Jeffrey Hicks'
-    }
+
 ]
 
 
@@ -212,4 +274,5 @@ url = {https://econ2017.sites.olt.ubc.ca/files/2021/03/BC-Income-Assistance-Tren
     }
 ]
 
-module.exports = { workingPapers, publications, worksInProgress, policyOutreach }
+module.exports = { workingPapers, publications,policyOutreach, worksInProgress }
+

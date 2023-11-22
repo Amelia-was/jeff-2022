@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { workingPapers, publications, worksInProgress, policyOutreach } from '../../utils/research';
+import { workingPapers, publications, policyOutreach } from '../../utils/research';
 import Paper from '../Paper';
 
 function Research() {
@@ -25,15 +25,6 @@ function Research() {
                 links={paper.links}
                 abstract={paper.abstract}
                 citation={paper.citation} />)}
-            <h4>Works In Progress</h4>
-            {worksInProgress.map(paper => <Paper
-                key={paper.title}
-                title={paper.title}
-                authors={paper.authors}
-                journal={paper.journal}
-                links={paper.links}
-                abstract={paper.abstract}
-                citation={paper.citation} />)}
         <h4>Policy Outreach</h4>
             <p>I was part of the team of researchers involved in the <a href='https://bcbasicincomepanel.ca/wp-content/uploads/2021/01/Final_Report_BC_Basic_Income_Panel.pdf' target='_blank' rel='noreferrer' className='link'>British Columbia Basic Income Panel</a>. One policy piece coming out of this was:</p><br />
 
@@ -49,3 +40,16 @@ function Research() {
 }
 
 export default Research;
+
+/*         
+worksInProgress
+            <h4>Works In Progress</h4>
+{worksInProgress.map(paper => <Paper
+                key={paper.title}
+                title={paper.title}
+                authors={paper.authors}
+                journal={paper.journal}
+                links={paper.links}
+                abstract={paper.abstract}
+                citation={paper.citation} />)}
+                */

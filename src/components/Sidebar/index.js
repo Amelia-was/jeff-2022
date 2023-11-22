@@ -13,7 +13,7 @@ function Sidebar() {
 
                 <h3 className='mobile-nav show-mobile mr-2' onClick={() => setIsMobileOpen(!isMobileOpen)}>{isMobileOpen ? '▾' : '▸'} About</h3>
 
-                <a href='mailto:jeffrey.hicks@utoronto.ca' className='icon-link show-mobile mr-2'>
+                <a href='mailto:jeffhicks05@gmail.com' className='icon-link show-mobile mr-2'>
                     <h3 className='ml-1'>Email</h3>
                 </a>
                 <a href='https://scholar.google.com/citations?user=Msyi62IAAAAJ&hl=en' className='icon-link show-mobile' target='_blank' rel='noreferrer'>
@@ -21,13 +21,13 @@ function Sidebar() {
                 </a>
             </div>
             <p className={`about mt-1 ${!isMobileOpen && 'hide-mobile'}`}>
-                Hello! I am an SSHRC Postdoctoral Fellow at the University of Toronto from 2021-2023. My research agenda primarily focuses on the design and implementation of taxation and social insurance systems. My current projects use a range of data sources including large-scale linked administrative datasets, web-scraped textual data, and spatial information.
+                Hello! I am an SSHRC Postdoctoral Fellow at the University of Toronto. My research agenda primarily focuses on the design and implementation of taxation and social insurance systems. Contact: jeffhicks05@gmail.com
             </p>
 
             </div>
             <ul className='contact flex row align-baseline'>
                 <li className='hide-mobile mt-2'>
-                    <a href='mailto:jeffrey.hicks@utoronto.ca' className='icon-link'>
+                    <a href='mailto:jeffhicks05@gmail.com' className='icon-link'>
                         <IoMail className='contact-icon' />
                     </a></li>
                 <li className='hide-mobile'>
