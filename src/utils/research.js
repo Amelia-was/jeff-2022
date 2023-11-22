@@ -43,7 +43,7 @@ const workingPapers = [
         title: 'The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
         authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard-Duplain (Co-Lead Author), David Green, William Warburton',
         abstract: 'Welfare caseloads in North America halved following reforms in the 1990s and 2000s. We study how this shift affected families by linking Canadian welfare records to tax returns, medical spending, educational attainment, and crime data. We find substantial and heterogeneous employment responses that increased average income despite reduced transfers. We find zero effects on aggregate health expenditures, but mothers saw reduced preventative care and increased mental health treatment, consistent with the transition to employment elevating time pressure and stress. We find no effect on teenagers’ education and criminal charges as young adults but do find evidence of intergenerational welfare transmission.',
-        journal: 'Job Market Paper 1,',
+        journal: 'Job Market Paper 1',
         citation: `@Article{Hicks2023,
             author    = {Hicks, Jeffrey and Simard-Duplain, Gaelle and Green, David and Warburton, William},
             journal   = {SSRN Electronic Journal},
@@ -65,7 +65,7 @@ const workingPapers = [
     {
         title: 'Cash Welfare and Health Spending',
         authors: 'Jeffrey Hicks',
-        journal: 'Job Market Paper 2,',
+        journal: 'Job Market Paper 2',
         abstract: 'I explore the interplay between cash welfare programs and health using Canadian administrative data. Health spending doubles before a welfare application, then partially returns to normal levels within three years. Using quasi-experimental variation in application adjudicators, I estimate that welfare receipt has, at most, minor positive effects on universally insured healthcare use. These findings imply that welfare insures against health risk without significantly affecting health outcomes. Welfare does substantially increase pharmaceutical use, which is not universally insured but for which welfare recipients are subsidized, implying that incomplete drug insurance strongly limits medication access among low-income households that cannot access welfare.',
         citation: `@Article{Hicks2023b,
             author    = {Hicks, Jeffrey and Welfare, Cash and Spending, Health},
@@ -125,7 +125,7 @@ const workingPapers = [
     {
         title: '(Short Paper) Administrative Procedures as Tax Enforcement Tools',
         authors: 'Wei Cui, Jeffrey Hicks, Michael Wiebe',
-        journal: 'October 2023,',
+        journal: 'October 2023',
         abstract: 'We study how common administrative procedures affect firm tax evasion. We begin with the counter-intuitive observation that many firms bunch above, rather than below, large notches in China\'s corporate income tax. Cross-sectional patterns suggest that regulatory procedures in the prepayment and refund system served as de facto enforcement tools that prevented some firms from accessing the reduced tax rates below the notches. Following a regulatory reform that eliminated these procedures, bunching below the notches increased dramatically. The results imply a tradeoff between reducing administrative barriers and allowing much taxpayer non-compliance.',
         links: [
             {
