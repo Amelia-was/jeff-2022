@@ -144,7 +144,19 @@ const awards = [
         description: 'SSHRC, 2014 - 15'
     }
 ]
-const invitedPresentations = [
+const invitedPresentations = [ 
+    {
+        title: 'Dalhousie University',
+        description: 'January 2024'
+    }, 
+    {
+        title: 'Simon Fraser University',
+        description: 'January 2024'
+    },     
+    {
+        title: 'University of Guelph',
+        description: 'January 2024'
+    },       
     {
         title: 'UBC Allard Tax Policy Seminar',
         description: 'September 2023'
