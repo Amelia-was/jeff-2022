@@ -19,7 +19,7 @@ function Sidebar() {
                 <a href='https://scholar.google.com/citations?user=Msyi62IAAAAJ&hl=en' className='icon-link show-mobile mr-2' target='_blank' rel='noreferrer'>
                         <h3 className='ml-1'>Google Scholar</h3>
                 </a>
-                <a href={`${process.env.PUBLIC_URL}/CV/CV-JeffHicks-nov2023.pdf`} className='icon-link show-mobile' target='_blank' rel='noreferrer'>
+                <a href={`${process.env.PUBLIC_URL}/CV/CV-JeffHicks.pdf`} className='icon-link show-mobile' target='_blank' rel='noreferrer'>
                         <h3 className='ml-1 d-inl'>CV</h3>
                 </a>
             </div>
@@ -27,7 +27,7 @@ function Sidebar() {
                 Hello! As of May 1st, 2024, I will be an Assistant Professor in the Department of Management at UTSC and the Rotman School of Management at the University of Toronto. My research agenda primarily focuses on the design and implementation of taxation and social insurance systems. Contact: jeffhicks05@gmail.com
             </p>
             <p className='mt-2 hide-mobile bold'>You can download my CV 
-                <a href={`${process.env.PUBLIC_URL}/CV/CV-JeffHicks-nov2023.pdf`} className='link-white mt-3' target='_blank' rel='noreferrer'>
+                <a href={`${process.env.PUBLIC_URL}/CV/CV-JeffHicks.pdf`} className='link-white mt-3' target='_blank' rel='noreferrer'>
                     here
                 </a>
             </p>

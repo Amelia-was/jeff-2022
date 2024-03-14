@@ -92,7 +92,7 @@ const workingPapers = [
         ]
     },
     {
-        title: 'The Effects of Field Office Closures on Welfare and Disability Insurance Enrollment',
+        title: 'The Effects of Field Office Closures on Social Assistance Take-up and Targeting',
         authors: 'Jeffrey Hicks',
         date: 'Under Pre-Publication Government Review'
     },
@@ -122,11 +122,15 @@ const workingPapers = [
             {title: 'Supplementary Appendix',
             url: 'https://www.gottlieb.ca/papers/SpilloversGHHO_SuppApp.pdf'}
         ]
-    },
+    }
+]
+
+const publications = [
     {
-        title: '(Short Paper) Administrative Procedures as Tax Enforcement Tools',
+        title: 'Administrative Procedures as Tax Enforcement Tools',
         authors: 'Wei Cui, Jeffrey Hicks, Michael Wiebe',
-        date: 'February 2024',
+        date: 'Accepted',
+        journal: 'Economics Letters',
         abstract: 'We study how common administrative procedures affect firm tax evasion. We begin with the counter-intuitive observation that many firms bunch above, rather than below, large notches in China\’s corporate income tax. Cross-sectional patterns suggest that administrative procedures in the prepayment and refund system served as de facto enforcement tools that prevented some firms from accessing the reduced tax rates below the notches. Following a regulatory reform that eliminated these procedures, bunching below the notches increased dramatically. The results imply a trade-off between reducing administrative barriers and allowing much taxpayer non-compliance in low-compliance environments.',
         links: [
             {
@@ -138,10 +142,7 @@ const workingPapers = [
                 url: 'https://commons.allard.ubc.ca/fac_pubs/758/'
             },
         ]
-    }
-]
-
-const publications = [
+    },
     {
         title: 'Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior',
         authors: 'Wei Cui, Jeffrey Hicks, Jing Xing',
