@@ -43,7 +43,7 @@ const workingPapers = [
         title: 'The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
         authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard-Duplain (Co-Lead Author), David Green, William Warburton',
         abstract: 'Welfare caseloads in North America halved following reforms in the 1990s and 2000s. We study how this shift affected families by linking Canadian welfare records to tax returns, medical spending, educational attainment, and crime data. We find substantial and heterogeneous employment responses that increased average income despite reduced transfers. We find zero effects on aggregate health expenditures, but mothers saw reduced preventative care and increased mental health treatment, consistent with the transition to employment elevating time pressure and stress. We find no effect on teenagers’ education and criminal charges as young adults but do find evidence of intergenerational welfare transmission.',
-        date: 'October 2023',
+        date: 'October 2023, First Version: July 2022',
         citation: `@Article{Hicks2023,
             author    = {Hicks, Jeffrey and Simard-Duplain, Gaelle and Green, David and Warburton, William},
             journal   = {SSRN Electronic Journal},
@@ -129,13 +129,26 @@ const publications = [
     {
         title: 'Administrative Procedures as Tax Enforcement Tools',
         authors: 'Wei Cui, Jeffrey Hicks, Michael Wiebe',
-        date: 'Accepted',
+        date: '2024',
         journal: 'Economics Letters',
         abstract: 'We study how common administrative procedures affect firm tax evasion. We begin with the counter-intuitive observation that many firms bunch above, rather than below, large notches in China\’s corporate income tax. Cross-sectional patterns suggest that administrative procedures in the prepayment and refund system served as de facto enforcement tools that prevented some firms from accessing the reduced tax rates below the notches. Following a regulatory reform that eliminated these procedures, bunching below the notches increased dramatically. The results imply a trade-off between reducing administrative barriers and allowing much taxpayer non-compliance in low-compliance environments.',
+        citation: `@article{CuiHicksWiebe,
+            title = {Administrative procedures as tax enforcement tools},
+            journal = {Economics Letters},
+            volume = {237},
+            pages = {111649},
+            year = {2024},
+            issn = {0165-1765},
+            doi = {https://doi.org/10.1016/j.econlet.2024.111649},
+            url = {https://www.sciencedirect.com/science/article/pii/S0165176524001320},
+            author = {Wei Cui and Jeffrey Hicks and Michael Wiebe},
+            keywords = {Tax administration, Evasion, Bunching},
+            abstract = {We study how common administrative procedures affect firm tax evasion. We begin with the counter-intuitive observation that many firms bunch above, rather than below, large notches in China’s corporate income tax. Cross-sectional patterns suggest that administrative procedures in the prepayment and refund system served as de facto enforcement tools that prevented some firms from accessing the reduced tax rates below the notches. Following a regulatory reform that eliminated these procedures, bunching below the notches increased dramatically. The results imply a trade-off between reducing administrative barriers and allowing much taxpayer non-compliance in low-compliance environments.}
+            }`,        
         links: [
             {
-                title: 'SSRN Paper',
-                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4615247'
+                title: 'Journal',
+                url: 'https://www.sciencedirect.com/science/article/pii/S0165176524001320?via%3Dihub'
             },
             {
                 title: 'Ungated',
