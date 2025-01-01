@@ -124,10 +124,6 @@ const awards = [
         description: '2019'
     },
     {
-        title: 'Best Poster Session, CRDCN Annual Conference',
-        description: '2018'
-    },
-    {
         title: 'Visiting Research Fellowship, Department of Finance, Canada',
         description: '2018'
     },
@@ -145,6 +141,26 @@ const awards = [
     }
 ]
 const invitedPresentations = [ 
+    {
+        title: 'Econometric Society at ASSA',
+        description: 'January 2025'
+    }, 
+    {
+        title: 'IRP Summer Research Workshop',
+        description: 'January 2024'
+    }, 
+    {
+        title: 'Bozeman Applied Economics Summer Conference',
+        description: 'June 2024'
+    }, 
+    {
+        title: 'Canadian Economics Association Annual Conference',
+        description: 'May 2024'
+    }, 
+    {
+        title: 'Bristol Applied Economics Meetings',
+        description: 'May 2024'
+    }, 
     {
         title: 'Dalhousie University',
         description: 'January 2024'
@@ -244,7 +260,7 @@ const invitedPresentations = [
 ]
 const refereeService = [
     {
-        title: 'American Economic Journal: Economic Policy (1), Journal of Public Economics (3), Journal of Development Economics (1), Journal of Economic Dynamics and Control (1), Canadian Tax Journal (1), Canadian Public Policy (1), Institute for Research on Public Policy (1)',
+        title: '13 reports: American Economic Journal: Economic Policy, Journal of Public Economics, Journal of Urban Economics, Journal of Development Economics, Journal of Economic Dynamics and Control, Canadian Tax Journal, Canadian Public Policy, Institute for Research on Public Policy',
         description: ''
     }
 ]

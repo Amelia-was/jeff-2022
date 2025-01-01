@@ -42,59 +42,64 @@ const workingPapers = [
     {
         title: 'The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
         authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard-Duplain (Co-Lead Author), David Green, William Warburton',
-        abstract: 'Welfare caseloads in North America halved following reforms in the 1990s and 2000s. We study how this shift affected families by linking Canadian welfare records to tax returns, medical spending, educational attainment, and crime data. We find substantial and heterogeneous employment responses that increased average income despite reduced transfers. We find zero effects on aggregate health expenditures, but mothers saw reduced preventative care and increased mental health treatment, consistent with the transition to employment elevating time pressure and stress. We find no effect on teenagers’ education and criminal charges as young adults but do find evidence of intergenerational welfare transmission.',
-        date: 'October 2023, First Version: July 2022',
+        abstract: 'Welfare caseloads in North America halved following reforms in the 1990s and 2000s. We study how this shift affected families by linking Canadian welfare records to tax returns, medical care, educational attainment, and crime data. We find substantial and heterogeneous employment responses that increased average income despite reduced transfers. We find zero effects on aggregate healthcare costs, but mothers saw reduced preventative care and increased mental health treatment, consistent with the transition to employment elevating time pressure and stress. We find no effect on teenagers’ education or criminal charges as young adults but find some evidence of intergenerational welfare transmission.',
+        date: 'Dec 2024, First Version: July 2022',
         citation: `@Article{Hicks2023,
             author    = {Hicks, Jeffrey and Simard-Duplain, Gaelle and Green, David and Warburton, William},
             journal   = {SSRN Electronic Journal},
             title     = {The Effect of Reducing Welfare Access on Employment, Health, and Children's Long-Run Outcomes},
-            year      = {2023},
-            month     = {10},
-            date      = {2023-10-02},
-            day       = {2},
+            year      = {2024},
             doi       = {10.2139/ssrn.4147958},
             publisher = {Elsevier BV},
           }`,
         links: [
             {
                 title: 'Paper',
-                url: 'https://docs.iza.org/dp16516.pdf'
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4147958'
             },    
-        ]
-    },
-    {
-        title: 'Cash Welfare and Health Spending',
-        authors: 'Jeffrey Hicks',
-        journal: 'R&R Journal of Human Resources',
-        date: 'June 2023',
-        abstract: 'I explore the interplay between cash welfare programs and health using Canadian administrative data. Health spending doubles before a welfare application, then partially returns to normal levels within three years. Using quasi-experimental variation in application adjudicators, I estimate that welfare receipt has, at most, minor positive effects on universally insured healthcare use. These findings imply that welfare insures against health risk without significantly affecting health outcomes. Welfare does substantially increase pharmaceutical use, which is not universally insured but for which welfare recipients are subsidized, implying that incomplete drug insurance strongly limits medication access among low-income households that cannot access welfare.',
-        citation: `@Article{Hicks2023b,
-            author    = {Hicks, Jeffrey},
-            journal   = {SSRN Electronic Journal},
-            title     = {Cash Welfare and Health Spending},
-            year      = {2023},
-            month     = {6},
-            date      = {2023-06-15},
-            day       = {15},
-            doi       = {10.2139/ssrn.4366181},
-            publisher = {Elsevier BV},
-          } `,
-        links: [
-            {
-                title: 'SSRN Paper',
-                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4366181'
-
-            },
-            {
-                title: 'Ungated',
-                url: 'https://www.dropbox.com/scl/fi/pf8ee599jb255dygct411/VO_June2023.pdf?rlkey=b7wtno7zfrdokkww19712rtmh&dl=0'
-            },
         ]
     },
     {
         title: 'The Effects of Field Office Closures on Social Assistance Take-up and Targeting',
         authors: 'Jeffrey Hicks',
-        date: 'Under Pre-Publication Government Review'
+        date: 'April 2024',
+        abstract: 'I study field offices as screening tools in social assistance programs. Using Canadian administrative data and a staggered difference-in-difference design, I estimate how office closures affect the size and composition of caseloads. On average, closures reduced caseloads in the local area by 20.2% for welfare and a statistically insignificant 3.6% for disability assistance. Within welfare, caseload declines were widespread across demographics, health status, education, and eligibility groups, which implies limited change in proportional program targeting. Suggestive evidence indicates that caseload declines were modestly larger among people who are conceivably less aware of the programs. The results are consistent with offices providing in-person information and application support, without which some applicants do not successfully pursue benefits',
+        links: [
+            {
+            title: 'Paper',
+            url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4811361'
+            }
+        ]
+    },
+    {
+        title: 'Pathways Into and Out of Homelessness',
+        authors: 'Victor Couture, David Green, Jeffrey Hicks, Pierre-Loup Beauregard ',
+        date: 'Work in progress'
+    },
+
+
+
+    {
+        title: 'Cash Welfare and Health Spending',
+        authors: 'Jeffrey Hicks',
+        journal: 'Revised and Resubmitted, Journal of Human Resources',
+        date: 'Dec 2024, First Version: June 2023',
+        abstract: 'I explore the interplay between cash welfare programs and health using Canadian administrative data. Health spending doubles before a welfare application, then partially returns to normal levels within three years. Using quasi-experimental variation in application adjudicators, I estimate that welfare receipt has, at most, minor positive effects on universally insured healthcare use. These findings imply that welfare insures against health risk without significantly affecting health outcomes. Welfare does substantially increase pharmaceutical use, which is not universally insured but for which welfare recipients are subsidized, implying that incomplete drug insurance strongly limits medication access among low-income households that cannot access welfare.',
+        citation: `@Article{Hicks2023b,
+            author    = {Hicks, Jeffrey},
+            journal   = {SSRN Electronic Journal},
+            title     = {Cash Welfare and Health Spending},
+            year      = {2024},
+            doi       = {10.2139/ssrn.4366181},
+            publisher = {Elsevier BV},
+          } `,
+        links: [
+            {
+                title: 'Paper',
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4366181'
+
+            }
+        ]
     },
     {
         title: 'The Spillover Effects of Top Income Inequality',
