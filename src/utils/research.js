@@ -40,26 +40,6 @@
 
 const workingPapers = [
     {
-        title: 'The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
-        authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard-Duplain (Co-Lead Author), David Green, William Warburton',
-        abstract: 'Welfare caseloads in North America halved following reforms in the 1990s and 2000s. We study how this shift affected families by linking Canadian welfare records to tax returns, medical care, educational attainment, and crime data. We find substantial and heterogeneous employment responses that increased average income despite reduced transfers. We find zero effects on aggregate healthcare costs, but mothers saw reduced preventative care and increased mental health treatment, consistent with the transition to employment elevating time pressure and stress. We find no effect on teenagers’ education or criminal charges as young adults but find some evidence of intergenerational welfare transmission.',
-        date: 'Dec 2024, First Version: July 2022',
-        citation: `@Article{Hicks2023,
-            author    = {Hicks, Jeffrey and Simard-Duplain, Gaelle and Green, David and Warburton, William},
-            journal   = {SSRN Electronic Journal},
-            title     = {The Effect of Reducing Welfare Access on Employment, Health, and Children's Long-Run Outcomes},
-            year      = {2024},
-            doi       = {10.2139/ssrn.4147958},
-            publisher = {Elsevier BV},
-          }`,
-        links: [
-            {
-                title: 'Paper',
-                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4147958'
-            },    
-        ]
-    },
-    {
         title: 'The Effects of Field Office Closures on Social Assistance Take-up and Targeting',
         authors: 'Jeffrey Hicks',
         date: 'April 2024',
@@ -78,7 +58,27 @@ const workingPapers = [
     },
 
 
-
+    {
+        title: 'The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
+        authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard-Duplain (Co-Lead Author), David Green, William Warburton',
+        abstract: 'Welfare caseloads in North America halved following reforms in the 1990s and 2000s. We study how this shift affected families by linking Canadian welfare records to tax returns, medical care, educational attainment, and crime data. We find substantial and heterogeneous employment responses that increased average income despite reduced transfers. We find zero effects on aggregate healthcare costs, but mothers saw reduced preventative care and increased mental health treatment, consistent with the transition to employment elevating time pressure and stress. We find no effect on teenagers’ education or criminal charges as young adults but find some evidence of intergenerational welfare transmission.',
+        date: 'Dec 2024, First Version: July 2022',
+        journal: 'Revisions Requested, The Economic Journal',
+        citation: `@Article{Hicks2023,
+            author    = {Hicks, Jeffrey and Simard-Duplain, Gaelle and Green, David and Warburton, William},
+            journal   = {SSRN Electronic Journal},
+            title     = {The Effect of Reducing Welfare Access on Employment, Health, and Children's Long-Run Outcomes},
+            year      = {2024},
+            doi       = {10.2139/ssrn.4147958},
+            publisher = {Elsevier BV},
+          }`,
+        links: [
+            {
+                title: 'Paper',
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4147958'
+            },    
+        ]
+    },
     {
         title: 'Cash Welfare and Health Spending',
         authors: 'Jeffrey Hicks',
@@ -104,7 +104,7 @@ const workingPapers = [
     {
         title: 'The Spillover Effects of Top Income Inequality',
         authors: 'Joshua Gottlieb, David Hemous, Jeffrey Hicks, Morten Olsen',
-        journal: 'R&R Econometrica',
+        journal: 'Revisions Requested, Econometrica',
         date: 'June 2023',
         abstract: 'Top income inequality in the United States has increased considerably within occupations. This phenomenon has led to a search for a common explanation. We instead develop a theory where increases in income inequality originating within a few occupations can “spill over” through consumption into others. We show theoretically that such spillovers occur when an occupation provides nondivisible services to consumers, with physicians our prime example. Examining local income inequality across U.S. regions, the data suggest that such spillovers exist for physicians, dentists, and real estate agents. Estimated spillovers for other occupations are consistent with the predictions of our theory.',
         citation: `@techreport{GottliebHemousHicksOlsen,
