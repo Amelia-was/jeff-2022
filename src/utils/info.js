@@ -1,4 +1,30 @@
 const instructor = [
+      {
+        title: 'Economics of the Public Sector: Expenditure',
+        description: 'Undergrad, University of Toronto-Scarborough, 2025',
+    },
+    {
+        links: [
+            {
+                title: 'F2025 Evals: 4.8/5, Response Rate: 27%',
+                url: 'PublicEconomicsW2025.pdf',
+                external: false
+            }
+        ]
+    } ,
+       {
+        title: 'Labour Economics 1',
+        description: 'Undergrad, University of Toronto-Scarborough, 2024-2025',
+    },
+    {
+        links: [
+            {
+                title: 'F2024 Evals: 4.6/5, Response Rate: 50%',
+                url: 'LabourEconomicsF2024.pdf',
+                external: false
+            }
+        ]
+    },
     {
         title: 'Labour Economics: Employment, Wages, and Public Policy',
         description: 'Undergrad, University of Toronto, 2021-2023',
@@ -146,8 +172,12 @@ const invitedPresentations = [
         description: 'January 2025'
     }, 
     {
+        title: 'Canadian Public Economics Group',
+        description: 'November 2024'
+    }, 
+    {
         title: 'IRP Summer Research Workshop',
-        description: 'January 2024'
+        description: 'June 2024'
     }, 
     {
         title: 'Bozeman Applied Economics Summer Conference',

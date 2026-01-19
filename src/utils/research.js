@@ -1,49 +1,14 @@
-/*
-    add a paper in this format
-    the order of the properties (title, authors, etc. doesn't matter)
-    note that citation is surrounded by backticks (`) not single-quotes (')
-    whitespace matters on the citation; the indentation, linebreaks, etc. will appear as they are here
-    only title, authors, and journal are required
-    {
-        title: 'title goes here',
-        authors: 'Author 1, Author 2, etc.',
-        journal: 'Journal Name Vol X. If there's no journal name only put the Month/Year [eg. November 2021]',
-        date: 'March 2023',
-        // the rest are optional
-        abstract: 'abstract goes here',
-        citation: `@article{ClemensGottliebHicks,
-    title = {How Would Medicare for All Affect Health System Capacity? Evidence from Medicare for Some},
-    author = {Jeffrey Clemens and Joshua D. Gottlieb and Jeffrey Hicks},
-    year = {2020},
-    journal = {Tax Policy and the Economy},
-    month = {forthcoming}
-}`,
-        links: [
-            // one of these should be the link to the journal/paper
-            {
-                title: 'Journal',
-                url: 'journal url goes here'
-            }
-            {
-                title: 'Name of Link',
-                url: 'url goes here'
-            },
-            {
-                title: 'Name of link',
-                url: 'url goes here'
-            }
-        ]
-    }
-*/
-
-
-
 const workingPapers = [
+    {
+        title: 'Pathways Into and Out of Homelessness',
+        authors: 'Pierre-Loup Beauregard, Victor Couture, David Green, Jeffrey Hicks, William Warburton',
+        date: 'In Progress, Please Email if Interested in the Work'
+    },
     {
         title: 'The Effects of Field Office Closures on Social Assistance Take-up and Targeting',
         authors: 'Jeffrey Hicks',
-        date: 'April 2024',
-        abstract: 'I study field offices as screening tools in social assistance programs. Using Canadian administrative data and a staggered difference-in-difference design, I estimate how office closures affect the size and composition of caseloads. On average, closures reduced caseloads in the local area by 20.2% for welfare and a statistically insignificant 3.6% for disability assistance. Within welfare, caseload declines were widespread across demographics, health status, education, and eligibility groups, which implies limited change in proportional program targeting. Suggestive evidence indicates that caseload declines were modestly larger among people who are conceivably less aware of the programs. The results are consistent with offices providing in-person information and application support, without which some applicants do not successfully pursue benefits',
+        date: 'August 2025, First version May 2024',
+        abstract: 'How does in-person support affect access to safety net programs? I study this question by examining how the closure of field offices has changed welfare and disability assistance caseloads. Using rich administrative data and a staggered difference-in-differences design, I estimate that closures, on average, reduced local caseloads by 11.5% for welfare and a statistically insignificant 1.6% for disability assistance. Declines in welfare caseloads (i) occurred across demographic, health, education, and eligibility groups, (ii) were somewhat larger among young and healthier individuals, and (iii) were suggestively larger among persons less familiar with the programs. On the whole, I find limited change in the relative targeting of benefits.',
         links: [
             {
             title: 'Paper',
@@ -51,13 +16,6 @@ const workingPapers = [
             }
         ]
     },
-    {
-        title: 'Pathways Into and Out of Homelessness',
-        authors: 'Victor Couture, David Green, Jeffrey Hicks, Pierre-Loup Beauregard ',
-        date: 'Work in progress'
-    },
-
-
     {
         title: 'The Effect of Reducing Welfare Access on Employment, Health, and Children\'s Long-Run Outcomes',
         authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard-Duplain (Co-Lead Author), David Green, William Warburton',
@@ -76,14 +34,62 @@ const workingPapers = [
             {
                 title: 'Paper',
                 url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4147958'
-            },    
+            }    
+        ]
+    }
+]
+
+const publications = [
+        {
+        title: 'International Comparison of Physician Incomes',
+        authors: 'Aidan Buehler, Joshua Gottlieb, Jeffrey Hicks, Lisa Laun, Marten Palme, Maria Polyakova, Victoria Udalova, and Maria Ventura',
+        journal: 'American Economic Association: Papers and Proceedings (In preparation)',
+        date: 'January 2026',
+        abstract: 'See paper.',
+        citation: `@article{GottliebP_P2026,
+            title = {International Comparison of Physician Incomes},
+            author = {Aidan Buehler and Joshua D. Gottlieb and Jeffrey Hicks and Lisa Laun and M\aa{}rten Palme and Maria Polyakova and Victoria Udalova and Maria Ventura},
+            year = {2026},
+            journal = {American Economic Association: Papers and Proceedings},
+            month = {May},
+            volume = {116}
+        }`,
+        links: [
+            {
+                title: 'Paper',
+                url: 'https://www.gottlieb.ca/papers/DocIncP_P.pdf'
+            }
+        ]
+    },
+        {
+        title: 'The Spillover Effects of Top Income Inequality',
+        authors: 'Joshua Gottlieb, David Hemous, Jeffrey Hicks, Morten Olsen',
+        journal: 'Econometrica (Accepted on Conditional on Replication Package)',
+        date: 'May 2025',
+        abstract: 'Topincome inequality in the United States has increased considerably within many occupations. This phenomenon has led to a search for a common explanation. We instead develop a theory where increases in income inequality originating within a few occupations can“spill over”through consumption into others. We show theoretically that such spillovers occur when an occupation provides non-divisible services of heterogeneous quality to consumers. Examining local income inequality across U.S. regions, we find evidence that such spillovers exist for physicians, dentists, other medical occupations, and real estate agents. Estimated spillovers for other occupations are consistent with the predictions of our theory. Calibrating our model, we show that spillovers amplify a given shock to top income inequality by at least 16%. Spillovers dampen the increase in consumers’ welfare inequality compared with the change in income inequality.',
+        citation: `@techreport{GottliebHemousHicksOlsen,
+            title = "The Spillover Effects of Top Income Inequality",
+            author = "Gottlieb, Joshua D and Hémous, David and Hicks, Jeffrey and Olsen, Morten G",
+            institution = "National Bureau of Economic Research",
+            type = "Working Paper",
+            series = "Working Paper Series",
+            number = "31366",
+            year = "2025",
+            month = "November",
+            doi = {10.3386/w31366}
+           }`,
+        links: [
+            {
+                title: 'Paper',
+                url: 'https://www.econ.uzh.ch/dam/jcr:299d2bce-be9a-407a-a8bc-67b8d5b47b40/The%20Spillover%20Effects%20of%20Top%20Income%20Inequality_November%202025.pdf'
+            }
         ]
     },
     {
         title: 'Cash Welfare and Health Spending',
         authors: 'Jeffrey Hicks',
-        journal: 'Revised and Resubmitted, Journal of Human Resources',
-        date: 'Dec 2024, First Version: June 2023',
+        journal: 'Journal of Human Resources (Accepted)',
+        date: 'October 2025',
         abstract: 'I explore the interplay between cash welfare programs and health using Canadian administrative data. Health spending doubles before a welfare application, then partially returns to normal levels within three years. Using quasi-experimental variation in application adjudicators, I estimate that welfare receipt has, at most, minor positive effects on universally insured healthcare use. These findings imply that welfare insures against health risk without significantly affecting health outcomes. Welfare does substantially increase pharmaceutical use, which is not universally insured but for which welfare recipients are subsidized, implying that incomplete drug insurance strongly limits medication access among low-income households that cannot access welfare.',
         citation: `@Article{Hicks2023b,
             author    = {Hicks, Jeffrey},
@@ -101,36 +107,6 @@ const workingPapers = [
             }
         ]
     },
-    {
-        title: 'The Spillover Effects of Top Income Inequality',
-        authors: 'Joshua Gottlieb, David Hemous, Jeffrey Hicks, Morten Olsen',
-        journal: 'Revisions Requested, Econometrica',
-        date: 'June 2023',
-        abstract: 'Top income inequality in the United States has increased considerably within occupations. This phenomenon has led to a search for a common explanation. We instead develop a theory where increases in income inequality originating within a few occupations can “spill over” through consumption into others. We show theoretically that such spillovers occur when an occupation provides nondivisible services to consumers, with physicians our prime example. Examining local income inequality across U.S. regions, the data suggest that such spillovers exist for physicians, dentists, and real estate agents. Estimated spillovers for other occupations are consistent with the predictions of our theory.',
-        citation: `@techreport{GottliebHemousHicksOlsen,
-            title = "The Spillover Effects of Top Income Inequality",
-            author = "Gottlieb, Joshua D and Hémous, David and Hicks, Jeffrey and Olsen, Morten G",
-            institution = "National Bureau of Economic Research",
-            type = "Working Paper",
-            series = "Working Paper Series",
-            number = "31366",
-            year = "2023",
-            month = "June",
-            doi = {10.3386/w31366},
-            URL = "http://www.nber.org/papers/w31366",
-           }`,
-        links: [
-            {
-                title: 'Paper',
-                url: 'http://users.nber.org/~jdgottl/SpilloversGHHO.pdf'
-            },
-            {title: 'Supplementary Appendix',
-            url: 'https://www.gottlieb.ca/papers/SpilloversGHHO_SuppApp.pdf'}
-        ]
-    }
-]
-
-const publications = [
     {
         title: 'Administrative Procedures as Tax Enforcement Tools',
         authors: 'Wei Cui, Jeffrey Hicks, Michael Wiebe',
