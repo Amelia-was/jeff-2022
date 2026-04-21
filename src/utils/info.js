@@ -58,51 +58,6 @@ const instructor = [
     }
 ]
 
-const teachingAssistant = [
-    {
-        title: 'Research Design and Policy Analysis',
-        description: 'MA, UBC, 2019'
-    },
-    {
-        title: 'Microeconomics for Policy Analysis',
-        description: 'Master\'s of Public Policy and Global Affairs, UBC, 2018',
-        links: [
-            {
-                title: 'Evaluations 1',
-                url: 'GPP1.PDF',
-                external: false
-            },
-            {
-                title: 'Evaluations 2',
-                url: 'GPP2.PDF',
-                external: false
-            }
-        ]
-    },
-    {
-        title: 'Benefit - Cost Analysis',
-        description: 'UBC, Undergraduate, 2017',
-        links: [
-            {
-                title: 'Evaluation',
-                url: 'https://jeffreyhickscom.files.wordpress.com/2018/09/costbenefit.pdf',
-                external: false
-            }
-        ]
-    },
-    {
-        title: 'Introduction to Microeconomics / Macroeconomics',
-        description: 'Queen\'s University 2014 / 15'
-    },
-    {
-        title: 'International Trade',
-        description: 'Mount Allison University, 2013'
-    },
-    {
-        title: 'Intermediate Microeconomics',
-        description: 'Mount Allison University, 2012 - 2013'
-    }
-]
 const education = [
     {
         title: 'PhD in Economics',
@@ -325,4 +280,4 @@ const languages = [
     }
 ]
 
-module.exports = { instructor, teachingAssistant, education, researchGrants, awards, refereeService, invitedPresentations, software, languages }
+module.exports = { instructor, education, researchGrants, awards, refereeService, invitedPresentations, software, languages }

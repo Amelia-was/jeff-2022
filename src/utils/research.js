@@ -21,7 +21,7 @@ const workingPapers = [
         authors: 'Jeffrey Hicks (Co-Lead Author), Gaelle Simard-Duplain (Co-Lead Author), David Green, William Warburton',
         abstract: 'Welfare caseloads in North America halved following reforms in the 1990s and 2000s. We study how this shift affected families by linking Canadian welfare records to tax returns, medical care, educational attainment, and crime data. We find substantial and heterogeneous employment responses that increased average income despite reduced transfers. We find zero effects on aggregate healthcare costs, but mothers saw reduced preventative care and increased mental health treatment, consistent with the transition to employment elevating time pressure and stress. We find no effect on teenagers’ education or criminal charges as young adults but find some evidence of intergenerational welfare transmission.',
         date: 'Dec 2024, First Version: July 2022',
-        journal: 'Revisions Requested, The Economic Journal',
+        journal: 'Revised & Resubmitted, The Economic Journal',
         citation: `@Article{Hicks2023,
             author    = {Hicks, Jeffrey and Simard-Duplain, Gaelle and Green, David and Warburton, William},
             journal   = {SSRN Electronic Journal},
@@ -36,16 +36,28 @@ const workingPapers = [
                 url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4147958'
             }    
         ]
-    }
+    },
+        {
+        title: 'Fertility Responses to Canada\'s Paid Parental Leave Expansion',
+        authors: 'Jeefrey Hicks, Hugh Shiplett, Steven Ryan',
+        date: 'April, 2026',
+        abstract: 'Canada doubled paid and protected parental leave for parents of children born after December 30th, 2000, creating an eligibility cutoff that has been widely used as a quasi-experiment. We study fertility dynamics around this reform using new administrative data. The policy was announced 14 months in advance, allowing families to delay fertility. Consistent with this, we document an immediate reduction in conceptions after the announcement: in the latter half of 2000, births among benefit-eligible mothers were 8% lower than a predicted counterfactual, followed by a relative boom after implementation. Fertility responses were strongest near the cutoff, exhibiting a 25%-30% discontinuity in births among benefit claimants. Placebo checks support a causal interpretation. Timing responses were strongest among high-income mothers and higher-order births, where the discontinuity in births was up to 47%, consistent with financial incentives and salience. These patterns underscore the sensitivity of fertility timing to financial incentives and have implications for research that assumes no such responsiveness.',
+        links: [
+            {
+                title: 'Paper',
+                url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6622098'
+            }    
+        ]
+    },
 ]
 
 const publications = [
         {
         title: 'International Comparison of Physician Incomes',
         authors: 'Aidan Buehler, Joshua Gottlieb, Jeffrey Hicks, Lisa Laun, Marten Palme, Maria Polyakova, Victoria Udalova, and Maria Ventura',
-        journal: 'American Economic Association: Papers and Proceedings (In preparation)',
+        journal: 'American Economic Association: Papers and Proceedings',
         date: 'January 2026',
-        abstract: 'See paper.',
+        abstract: 'We compare physician earnings using tax data from the U.S., Canada, Sweden, and the Netherlands. Physicians are concentrated in the top few percentiles of the income distribution in all four countries, especially in the U.S. and in certain specialties. Physician incomes are highest in the U.S., and a decomposition shows that this mainly reflects differences in overall income distributions, rather than physicians\' locations in those distributions. This suggests that broader labor market differences, and thus physicians\' outside options, drive absolute earnings. Shifting U.S. physicians\' incomes to match relative positions in other countries\' distributions would have minimal impact on healthcare spending.',
         citation: `@article{GottliebP_P2026,
             title = {International Comparison of Physician Incomes},
             author = {Aidan Buehler and Joshua D. Gottlieb and Jeffrey Hicks and Lisa Laun and M\aa{}rten Palme and Maria Polyakova and Victoria Udalova and Maria Ventura},

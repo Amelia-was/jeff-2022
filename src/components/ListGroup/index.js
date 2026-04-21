@@ -1,6 +1,6 @@
 import React from 'react';
 import ListElement from '../ListElement';
-import { instructor, teachingAssistant, education, invitedPresentations, researchGrants, awards, refereeService, software, languages } from '../../utils/info';
+import { instructor, education, invitedPresentations, researchGrants, awards, refereeService, software, languages } from '../../utils/info';
 
 function ListGroup({ heading }) {
 
@@ -10,8 +10,6 @@ function ListGroup({ heading }) {
                 return instructor;
             case 'Education':
                 return education;
-            case 'Teaching Assistant':
-                return teachingAssistant;
             case 'Invited Presentations':
                 return invitedPresentations;
             case 'Research Grants':

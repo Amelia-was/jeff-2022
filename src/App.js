@@ -3,18 +3,16 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import Research from './components/Research';
 import Teaching from './components/Teaching';
-import Vita from './components/Vita';
+
 
 function App() {
-  const navLinks = ['Research', 'Teaching', 'Vita'];
+  const navLinks = ['Research', 'Teaching'];
   const [currentPage, setCurrentPage] = useState(navLinks[0]);
 
   const renderPage = () => {
     switch (currentPage) {
       case 'Teaching':
         return <Teaching />;
-      case 'Vita':
-        return <Vita />;
       default:
         return <Research />;
     }
