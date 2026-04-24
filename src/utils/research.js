@@ -8,6 +8,7 @@ const workingPapers = [
         title: 'The Effects of Field Office Closures on Social Assistance Take-up and Targeting',
         authors: 'Jeffrey Hicks',
         date: 'August 2025, First version May 2024',
+        journal: 'Revise & Resubmit, Labour Economics',
         abstract: 'How does in-person support affect access to safety net programs? I study this question by examining how the closure of field offices has changed welfare and disability assistance caseloads. Using rich administrative data and a staggered difference-in-differences design, I estimate that closures, on average, reduced local caseloads by 11.5% for welfare and a statistically insignificant 1.6% for disability assistance. Declines in welfare caseloads (i) occurred across demographic, health, education, and eligibility groups, (ii) were somewhat larger among young and healthier individuals, and (iii) were suggestively larger among persons less familiar with the programs. On the whole, I find limited change in the relative targeting of benefits.',
         links: [
             {
@@ -39,7 +40,7 @@ const workingPapers = [
     },
         {
         title: 'Fertility Responses to Canada\'s Paid Parental Leave Expansion',
-        authors: 'Jeefrey Hicks, Hugh Shiplett, Steven Ryan',
+        authors: 'Jeffrey Hicks, Hugh Shiplett, Steven Ryan',
         date: 'April, 2026',
         abstract: 'Canada doubled paid and protected parental leave for parents of children born after December 30th, 2000, creating an eligibility cutoff that has been widely used as a quasi-experiment. We study fertility dynamics around this reform using new administrative data. The policy was announced 14 months in advance, allowing families to delay fertility. Consistent with this, we document an immediate reduction in conceptions after the announcement: in the latter half of 2000, births among benefit-eligible mothers were 8% lower than a predicted counterfactual, followed by a relative boom after implementation. Fertility responses were strongest near the cutoff, exhibiting a 25%-30% discontinuity in births among benefit claimants. Placebo checks support a causal interpretation. Timing responses were strongest among high-income mothers and higher-order births, where the discontinuity in births was up to 47%, consistent with financial incentives and salience. These patterns underscore the sensitivity of fertility timing to financial incentives and have implications for research that assumes no such responsiveness.',
         links: [

@@ -6,7 +6,6 @@ function Teaching() {
         <section> 
           
             <ListGroup heading='Instructor'/>
-            <h4> Grad School Reference Requests</h4>  
         </section>
     );
 };
